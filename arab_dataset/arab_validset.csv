@@ -1,0 +1,551 @@
+tweet,sentiment,sentiment_score,annotator,annotator_score,directness,directness_score,group,group_score,target,target_score
+@user وهل يوجد ابشع من هاؤلاء هُم المتأمرون ع اليمن وشعب اليمن هُم من تأمرو ع ليبيا العراق سوريا فلسطين السودان… @url,normal,5,indifference,6,direct,1,other,1,origin,1
+@user @user @user بول البعير اطهر واشرف من حثالة الشيعه واتباعهم,hateful,1,disgust,0,direct,1,other,1,religion,3
+@user يخي قلعتهم لسانهم وسخ ماهموني وماتفرحت بالي صار لهم,offensive,2,disgust,0,indirect,0,other,1,other,0
+@user @user هم اللى بيحوروا المواضيع .. تتكلم عن الأمن يقول لك امنعوا المتبرجه.. طيب ده دخله ايه ب… @url,normal,5,disgust,0,indirect,0,other,1,other,0
+@user @user انت اكلتها يا خنزير,offensive,2,disgust,0,direct,1,individual,0,other,0
+@user @user العجوز هذي عندها مشكلة في فهم الدين ونصوص الشريعة ولا بوصلتها العقلية والدينية منحرفة عن… @url,disrespectful,3,indifference,6,direct,1,individual,0,gender,2
+@user ما شاءالله صنضويطشتك محجبة مافي خوف عليها من التحرش,normal,5,indifference,6,indirect,0,women,2,other,0
+@user @user @user @user عادي انا بسمع عندكم نسبة التحرش عالية وبدون زعل,normal,5,indifference,6,direct,1,women,2,other,0
+@user ونطالب الزعيم السيسي بالشراسة فى التعامل مع خنازير حسن البنا وكلاب قطراءيل وتركاءيل واعدامهم وقتلهم أينما وجدوا,hateful,1,shock,1,direct,1,other,1,origin,1
+موتوا بغيظكم يا خنازير قطر. @url,hateful,1,anger,2,direct,1,other,1,origin,1
+؛ متحنش لحد باعك يا وسخ.,abusive,0,sadness,3,direct,1,individual,0,other,0
+والكلاب السود والخنازير تاكلنا,abusive,0,shock,1,indirect,0,other,1,origin,1
+@user @user @user ههههههههع مصدق نفس هوه الي واجه الجيش العراقي  يا شارب بول البعير ما تسترجي على گولت اخوانا السوريين,abusive,0,shock,1,direct,1,individual,0,other,0
+أو شارب بول البعير,disrespectful,3,indifference,6,indirect,0,individual,0,other,0
+@user @user @user تشرفنا يا خنزير .. علي الأقل ننال شرف القضاء علي ارهابي نجس مثلك ونريح العال… @url,hateful,1,indifference,6,direct,1,individual,0,other,0
+ياريت اربع سنين بنقول الكلام ومفيش حد سامع السجون عماله تعلف في خنازير الاخوان وهما يخططوا والكلاب الي بره تنفذ @url,abusive,0,indifference,6,indirect,0,other,1,other,0
+@user هههه وانا من جنوب افريقيا انا العربي ولد الإعراب و بعد تعالي عطيني اصلك اذا انتي صادقه عربيه,normal,5,indifference,6,direct,1,individual,0,other,0
+@user لايهمك خرابيط الي تشرب دافي وينظف،، سوي تنظيف بالعكس ممتاز لصحة ارحامك .. عندنا خرافات الحريم مابعد بطلوها,disrespectful,3,anger,2,direct,1,women,2,gender,2
+@user يا مرآة مسلمة يا عورة اي فرج خرق يا ناقصة عقل يا كلبة يا حمارة يا نص الورث و نص الشهادة يا ضلعة عو… @url,hateful,1,shock,1,direct,1,women,2,gender,2
+@user يلا يا بتوع بول البعير يا شواذ يا ولاد الوسخة يللي نسونكم بيتركبوا من الهنود وبنغال ياض دة جددودنا كانوا… @user,offensive,2,anger,2,direct,1,other,1,origin,1
+@user @user الا خنازير قطر يقولون ايران دوله شريفه و خليفة الشواذ المتحالف معهم,hateful,1,shock,1,direct,1,other,1,origin,1
+@user @user @user @user لم اشتم الا اعداء #وطني خنازير #الفرس ولي الشرف بذالك في حال بادر بذالك… @url,hateful,1,anger,2,indirect,0,other,1,origin,1
+@user @user @user الله يلعنك ويلعن حاكمك .فلسطين ياكلب وقف اسلامي ومش محتاجه خنازير زي شكلك . ارض الحرمي… @url,hateful,1,anger,2,direct,1,individual,0,origin,1
+الحلانا من قضية التحرش يحلنا من الدعم السريع,normal,5,sadness,3,indirect,0,other,1,other,0
+ولا على حسابج ما حب عرس انا  وادخل صاله الحريم وويهي يقلب الوان غير العادات و التقاليد الغير مرغوب فيها بص… @url,normal,5,indifference,6,indirect,0,women,2,other,0
+من كلام الناس وعيون الحريم,normal,5,indifference,6,direct,1,other,1,other,0
+زيدي ناقص اصلك مجوسي من بلاد السد @url,hateful,1,shock,1,direct,1,individual,0,origin,1
+@user @user @user لانكم خنازير واتباع هوا وخونه للإسلام,hateful,1,anger,2,indirect,0,other,1,other,0
+لاجيت أعاتبك طيّحت الحطب كلّه,offensive,2,indifference,6,indirect,0,individual,0,other,0
+@user وين الغلط بالموضوع كلامة واقعي ماحد يعطي ابتكم وجة ي الحريم,normal,5,indifference,6,indirect,0,women,2,origin,1
+@user @user هذا ما يوجد فالسعدوية لذلك أنصحك أخي بعدم المغامرة والذهاب إلى بلاد بول البعير @user,abusive,0,indifference,6,indirect,0,other,1,other,0
+@user @user حرام عليكي يا دكتور معندكيش خنازير صغيرة,disrespectful,3,indifference,6,indirect,0,other,1,other,0
+@user كلب خنزير اش من بطل,offensive,2,anger,2,indirect,0,individual,0,other,0
+لا تتصارع أبداً مع خنزير فتتسخ وبالاضافه الى ذلك هو سيحب ذلك !,disrespectful,3,shock,1,direct,1,other,1,other,0
+موتوا بغيظكم يا خنازير قطر. @url,hateful,1,disgust,0,direct,1,other,1,origin,1
+تجسس محارم ديوث دياثة ديوثة كلوت كلو… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user @user خنزير صادق افضل من خنزير عميل ياخميني الخنازير لكن مت بغيظك انت امام السعودية العظمى,offensive,2,disgust,0,indirect,0,individual,0,religion,3
+@user @user الله يلعن ابوك على ابو حكامكم عبيد الصهاينه يا خنزير,hateful,1,shock,1,direct,1,individual,0,origin,1
+اذا كانوا اخوات او صحاب او اب وابنه مفيش حاجة تكره راجلين في بعض غير الحريم,normal,5,shock,1,indirect,0,women,2,gender,2
+___ أنقطع وصله ولا أدريّ ويش حده والله أن فقده من كبار الخساااير / وديّ أعرف من وقف ضديّ وضده العواذل بايره والوقت باااير ..,disrespectful,3,shock,1,indirect,0,other,1,other,0
+@user @user @user حتة نادرا كتلوا خنازير خميني,hateful,1,disgust,0,indirect,0,other,1,other,0
+@user هندوس علي الاتنين واللي مش عاجبة يروح @url,disrespectful,3,shock,1,indirect,0,other,1,other,0
+@user لولا الغرب أقسم بالله لو بقيتم في الصحراء و تشربون بول البعير، لكن الحمد لله رزقكم الله النفط من أجل مساعدة… @url,offensive,2,indifference,6,direct,1,other,1,origin,1
+@user @user حرام عليكي يا دكتور معندكيش خنازير صغيرة,offensive,2,indifference,6,indirect,0,other,1,other,0
+يجعلون عطر المرأة وصوت كعبها وخلخالها ولباسها سبباً في التحرش او حتى الإغتصاب ولم نرى هذا التبرير لسارق الخبز الجائ… @url,normal,5,indifference,6,direct,1,women,2,other,0
+@user @user هذا الخنزير الضعيف الي تتكلمين عنه تعالي شوفي لين يكون مع مجموعه خنازير صهاينه ومعهم قو… @url,hateful,1,indifference,6,direct,1,individual,0,origin,1
+@user @user لا نظرتهم دايم بالمتحرش ، مبعدين كل النظر عن وش اسباب التحرش و ليش تحرش ، ما ابرر له ولا لغيره لكن… @url,abusive,0,disgust,0,indirect,0,other,1,other,0
+وانا بقترح مع فرع مكافحة التحرش يضيفوا فرع مكافحة المياعه.,normal,5,sadness,3,indirect,0,other,1,other,0
+عرفت اليوم ليش سيئ طلع ذكرى ميلاد خنزير البرتغال,hateful,1,shock,1,indirect,0,other,1,origin,1
+@user @user @user يا كلب يا خنزير  العراقيين تاج راسك يا مخنث,hateful,1,disgust,0,direct,1,individual,0,origin,1
+ماشايفو قال حاجه غلط حوادث التحرش بتحصل كتير في المجال دا والطبيب في الاخير انسان زينا وممكن يتمادى ف الززل لو لقى… @url,offensive,2,indifference,6,indirect,0,women,2,other,0
+#السعودية مملكة التنابل-بول البعير @user,normal,5,shock,1,direct,1,other,1,origin,1
+وإن رأيت بعلا وزوجته متبرجه,disrespectful,3,indifference,6,indirect,0,individual,0,other,0
+لا تعشقي وهابيا سيحدثك في ليالي الرومانسية عن الجن و القبر و بول البعير ...,disrespectful,3,disgust,0,indirect,0,women,2,other,0
+بتكون خنزير وتافه وفاشل اذا بتوصل عمر ٢٣ وبعدك قاعد عند اهلك,disrespectful,3,indifference,6,indirect,0,individual,0,other,0
+@user مافي فرق بينكم كلكم خنازير,hateful,1,shock,1,indirect,0,other,1,other,0
+وكان إثنا عشر صوتا يصرخ في غضب وكلها متشابهة لا حاجة للسؤال الآن عما قد حدث لوجوه الخنازير وتتطلع الكائنات في الخار… @url,offensive,2,shock,1,indirect,0,other,1,other,0
+النايض ما عجبتش نزلت الدولار كيف عاد هكي بتقطعوا علية الاستمتاع  بمعاناة الليبيين واستمتاع خنازير الإمارات… @url,abusive,0,disgust,0,direct,1,other,1,origin,1
+وفيهم سلع بايره لاحرجوا بالحراج,offensive,2,indifference,6,indirect,0,women,2,gender,2
+@user لأفضل متبرجة اسلامية عربية عريانة فضحتنى,offensive,2,sadness,3,indirect,0,women,2,gender,2
+من إشاعات الاغتصابات في السجون واللاجئين الأفارقة إلى حكاية اللانجوس والمقويات الجنسية والترويج لها إعلاميا..,normal,5,shock,1,indirect,0,other,1,origin,1
+@user @user @user @user اولا هم ليسوا جرب الا ان كنت فارسي,offensive,2,sadness,3,indirect,0,other,1,origin,1
+@user يازينه من وسخ هاتها,offensive,2,shock,1,indirect,0,other,1,other,0
+اليوم كان عندي محاضرة عن نظام التحرش ووحده تناقش الدكتورة قالت لها ممكن تكون البنت جنت على نفسها بالتبرج وكل القاعه… @url,normal,5,indifference,6,indirect,0,women,2,other,0
+فعلا احاسيس خنزير يا اميرتي انا احبك يا مستقبل الامارات وبعدين تعالي اخطفيني هالحياه تعبتني @url,hateful,1,disgust,0,indirect,0,individual,0,gender,2
+ان شاء الله يودعوا مش ناقصة خنازير,offensive,2,shock,1,indirect,0,other,1,other,0
+حاسه اني أرملة او مطلقة او بايرة حاجة في الرينج دا مش فاهمة,normal,5,sadness,3,indirect,0,individual,0,other,0
+زي كل مذبحة يطلع أشباه بشر برؤوس خنازير تصقف لقتل أبرياء لا حول لهم و لا قوة و يشمتوا في دمهم,hateful,1,indifference,6,indirect,0,other,1,other,0
+والهاش يكون ترند من اول اليوم #افريقيا_يا_اهلي,normal,5,indifference,6,direct,1,african_descent,3,other,0
+لفتتني ثقافة مجتمع أراده حاكمُه داعشيا:اطلق شبيحة النظام السوري علي شائعة اغتصاب.قام النظام السعودي بتكراره مع كمّ… @url,hateful,1,disgust,0,direct,1,other,1,origin,1
+يا بايرات,disrespectful,3,disgust,0,direct,1,women,2,gender,2
+ياخي اللاعبين الافارقة على اخر ايامهم يبدون يتشرطون ..,abusive,0,indifference,6,direct,1,african_descent,3,origin,1
+ما فى شركات كتير بتعمل لحم خنازير وتك… @url,disrespectful,3,sadness,3,indirect,0,other,1,other,0
+تم عقد الاجتماع الأول لطلاب التوعية بمدرسة سعد بن معاذ الابتدائية،  والذي هدف إلى بيان أهداف الجمعية من تنمية مهارا… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+الظاهر ان الدختر قاع يعاني من موجة عالية من التحرش والشاهد (يحليلة),offensive,2,indifference,6,indirect,0,individual,0,other,0
+@user مو مشكله نشرب بول البعير بس ما ننهان من العالم يا ولد القحبه,offensive,2,shock,1,indirect,0,other,1,origin,1
+#تويته_حلوه_منك توتير صار قذر جدا كأني في حظيرة خنازير تلعب بطين من,offensive,2,indifference,6,indirect,0,other,1,other,0
+ترمب يدافع عن كافانا: إدعاءات التحرش هدفها سياسي,normal,5,indifference,6,indirect,0,individual,0,other,0
+@user @user كل الكلام اللي قاله هذا الكائن صحيح لكنه عندما يتحدث عن المصريين فهو يقصد خنازير النظام و… @url,abusive,0,indifference,6,indirect,0,other,1,other,0
+من الكلاب النابحة المرتزقة اراذل خنازير الع… @url,hateful,1,shock,1,direct,1,other,1,origin,1
+@user @user احنا الغجر يا بدو؟  يا راعية الابل لا تكثرين من شرب بول البعير... ما حدا طايقكن هالايام مشكل… @url,offensive,2,shock,1,direct,1,individual,0,other,0
+يواصل مركز #أمان #حملة_لا_تلمسني لتوعية الأطفال ضد التحرش. @url,normal,5,indifference,6,indirect,0,other,1,other,0
+ويهربون خنازير الوهابية الذين فجروا فنادق بيروت يا فرخ. @url,hateful,1,anger,2,direct,1,other,1,other,0
+@user @user كس امك ياعار هيه عاهره صاقطه شجاب ذولى عليهم بس انته جماعة #بول_البعير_تموتون_من_الشيعه ي… @url,abusive,0,disgust,0,direct,1,individual,0,other,0
+طبعا التويته ودوها الفيس و تقريبا 90% من تعليقاتهم اني زولة بايره و فاكه العلاقه شنو ما عارفه و كميه شتايم كفيلة بإ… @url,normal,5,confusion,5,indirect,0,other,1,other,0
+حجة مبرراتية حماس فى دفاعها عن كفرة نظام إيران و سفاحين الشيعة هو إن مفيش بديل والكل طعن غزة وإيران الوحيدة اللى بت… @url,hateful,1,anger,2,indirect,0,other,1,origin,1
+الله. ليشفايهن  قال  لولاد. منو. من. ضهرك. كل مجن. فرحلو  هد بهيم  احفد. روعات  دجاج. ولخنزير. لمجوس  قال لمتال  يا… @url,abusive,0,shock,1,indirect,0,other,1,origin,1
+اصلها مش زراير هندوس عليها عشان نلاقي روحنا نسينا حد و عرفنا نلاقي حد غيره .. يا رتها كانت كدة,normal,5,shock,1,indirect,0,other,1,other,0
+#في_بلادك_تقدري تعيشي بلا ما تسمعي : عورة ، بلاصتك فالكوزينة ، مسطاشة ، عاهرة ،  بايرة ...,disrespectful,3,sadness,3,direct,1,women,2,gender,2
+@user @user  نور قوليلها انها بايرة عشان إللى بتعملوا فينا ده كتير اوى والله,fearful,4,sadness,3,direct,1,individual,0,gender,2
+من هذا السفور المُزري والتبرج،،,normal,5,shock,1,indirect,0,women,2,gender,2
+لأنه مواظب على شرب بول البعير...,disrespectful,3,indifference,6,direct,1,individual,0,origin,1
+@user @user لو ما عاجبتك عندك ١٠٠٠ قناة عربية تتكلم عن فوائد شرب بول البعير و لقاءات مع شيوخ على… @user,normal,5,sadness,3,direct,1,individual,0,other,0
+بعد ساعة وربع يحق لجميع الاشخاص التحرش فيني ولن يكونوا عرضة للقانون بما اني بأكمل 18,abusive,0,shock,1,direct,1,women,2,other,0
+ما بدي كون متطفّل، أعتقد أنّهم يأكلون الضّبّ ويتعاطون بول البعير، وكفى ذلك شحار وتعتير. @url,hateful,1,disgust,0,indirect,0,other,1,other,0
+@user نعم وأسلافنا سلموا أمر دينهم ورسالته لمجموعة من الجهلة والمغفلين فساقوا البشرية إلى شرب بول البعير,normal,5,indifference,6,indirect,0,other,1,other,0
+طبيعي يا عالم يا وسخ من ايام الفارابي للأن محد قدر يسوي هالمدينه الصغيره الجميله؟,offensive,2,anger,2,indirect,0,other,1,other,0
+ما الفائدة من صورة فتآة متبرجة كاشفة الوجه  عارية الساقين او  الذراعين تضعينها صورة صفحتك الشخصية,offensive,2,anger,2,direct,1,women,2,origin,1
+أنت تروّج لشخصيات منحرفة بداعي أنها أحسنت في جزئية ما!! وماذا عن بقية سيرت… @url,normal,5,disgust,0,direct,1,individual,0,other,0
+@user يمشي بخطا ادارتها قيد من الأمريكان ونهب اسرائيل و تجاهل العرب وضغط أوروبي.  هو لا يطبق مايتكلم. له اتجاهات منحرفة,normal,5,sadness,3,direct,1,other,1,origin,1
+@user @user نحن لا نشرب بول البعير . لأنه كان حالة خاصة لعلاج مرض .كما ان بعض علماء الاسلام يحرمون شربه… @user,normal,5,indifference,6,indirect,0,other,1,other,0
+للى بيقولوا لبس البنت سبب التحرش,normal,5,shock,1,direct,1,women,2,gender,2
+@user و انت معتنق دين بول البعير,hateful,1,shock,1,direct,1,individual,0,other,0
+@user @user @user @user غالبا يكون كلامه بيرفكت وهي ماتعرف انه ينظر لها بدونية ويعتبرها منحرفة و… @url,disrespectful,3,indifference,6,direct,1,individual,0,other,0
+تركى آل شيخ وهو بيشتم دكتور محمد العدل ومفيش وسخ من اللى طالعين يدافعوا عنه نطق كلمة,abusive,0,shock,1,direct,1,individual,0,origin,1
+@user @user هسه اني ليش متعب نفسي ويه وحده تامن في بول البعير شفاء للمريض,abusive,0,disgust,0,direct,1,other,1,other,0
+@user هل تفكر بأن شرب بول البعير ليس بحلال وأنها نجسة ومكروهة ينفر منها الحيوان قبل الانسان؟ فانت كافر زند… @user,offensive,2,shock,1,indirect,0,individual,0,religion,3
+لم تكوني بتتونسي مع صحباتك وهم متزوجات وانتي بايره  @url,disrespectful,3,shock,1,direct,1,women,2,other,0
+@user @user خنزير فاجر يقتل القتيل ويمشي في جنازته امتا يارب النجاه من الفاسد الإرهابي ده اللي بيتحكم في المصريين غصب عنهم,hateful,1,shock,1,direct,1,individual,0,origin,1
+@user @user السعودية لو أرادت التطبيع لفعلت ذلك يا خنزير,disrespectful,3,shock,1,direct,1,individual,0,other,0
+فيها باقي بعد مو انتي فصلتيني بس اكثر شي عجبني التحرش بخلق الله @url,offensive,2,indifference,6,indirect,0,individual,0,other,0
+بص ياحياتها من امبارح وبنقول الصوره مفبركه والاستدلال فاسد ومافيش فايده فى عقل الخنزير اللى انت حاطه وعاوز تقارن ها… @url,normal,5,anger,2,direct,1,individual,0,other,0
+@user وحجر وسيري سايره ولا تكوني بايره,offensive,2,sadness,3,indirect,0,women,2,gender,2
+@user @user انتم سبب دمار الدول وتخلفها يا شاربي بول البعير .ايران قريبه منكم يا جبنإ,hateful,1,disgust,0,direct,1,other,1,origin,1
+@user @user @user اكيد شارب بول البعير مبين من كلامك لان هذه القاذورات التي تتلفض بها اس… @url,offensive,2,sadness,3,indirect,0,individual,0,other,0
+@user ويتهمون اهل الجزيره بالهمجيه والتخلف وشرب بول البعير وهم يضاهون العالم بهمجيتهم ووحشيتهم,abusive,0,disgust,0,direct,1,other,1,other,0
+@user @user @user @user وسوف ندعسكم دعس وموتوا بغيظكم يا خنازير,hateful,1,indifference,6,direct,1,other,1,other,0
+ليفربول يلعن ابو القذارة اللي فيكم يا خنازير,abusive,0,indifference,6,indirect,0,other,1,other,0
+شاهد: داعية مصري يكشف سبب التحرش بالفتيات.. لأن شنطتك ذهبي يطمع فيك! @url,offensive,2,indifference,6,indirect,0,women,2,other,0
+خنزير آدمي يدعي الامانه ويصلي صلاة الجماعه يدعي الأخلاق الحميده يساعد الناس,abusive,0,shock,1,indirect,0,individual,0,religion,3
+زي كل مذبحة يطلع أشباه بشر برؤوس خنازير تصقف لقتل أبرياء لا حول لهم و لا قوة و يشمتوا في دمهم,hateful,1,sadness,3,indirect,0,other,1,other,0
+@user يا شرق سلوي.... اتقي الله يعني اذا كان زعمائك خنازير وكلاب مش قادرة تصدقي هالحكي،،،،، والله انا فلسطين… @url,hateful,1,shock,1,indirect,0,individual,0,other,0
+@user @user هو ازاي سمير ب دقن وحسناء متبرجه,abusive,0,anger,2,indirect,0,individual,0,gender,2
+@user @user في حريم مستعجلات على بالها سواقة السيارة مثل سواقة الدراجة,abusive,0,confusion,5,direct,1,women,2,gender,2
+*عاوز تسيب تجارة إنجلش اللى دفعنا فيها دم قلبنا و تروح تكتب افلام للسبكى و تساعد على إنتشار البلطجة و التحرش يا خول؟ @url,offensive,2,disgust,0,direct,1,individual,0,other,0
+@user لإن التحرش وسيلة ردع للإناث عن أنهم يخرجوا عن سطوة وسيطرة الجنس الاعلي,normal,5,indifference,6,direct,1,women,2,gender,2
+لا تحاولين تلميع ملتكم النجسة,disrespectful,3,disgust,0,indirect,0,other,1,other,0
+لعل هذا الامر يظهر حالة المجتمع الذكوري اللي دابحينا فيها كل ما دق الكوز بالجرة.. اما ظاهرة التحرش او الاغتصاب بأي… @url,offensive,2,indifference,6,direct,1,women,2,gender,2
+انت خنزير جرار ساقط,disrespectful,3,indifference,6,direct,1,individual,0,other,0
+@user يا راجل هو احنا شفنا التحرش والفضايح دي كلها الا بعد ما ستات مصر اتحجبت واتنقبت .. بلا قرف,disrespectful,3,anger,2,indirect,0,other,1,other,0
+جنوب سوريا ثواراحرار,normal,5,indifference,6,indirect,0,other,1,other,0
+يابن الكلب ي وسخ انتا,offensive,2,shock,1,indirect,0,individual,0,other,0
+فيه واحد خنزير قاعد يعاطس على جهتي وجا شوي بلغم على طاولتي @url,hateful,1,indifference,6,indirect,0,individual,0,other,0
+فيه نوعية كلاب مسعورة هذه نظرتها في كل مجتمع وكل دولة,offensive,2,shock,1,indirect,0,other,1,other,0
+@user @user @user يعني ناكل خنزير عادي علشان ربنا خلقه وبعدها حرمه ونشرب خمر ونزني وكل شي والله فله .… @url,normal,5,sadness,3,indirect,0,other,1,other,0
+@user هاذ خنزير خاين وكلب من خان بلده يعتبر خنزير مشررد لعنه الله,hateful,1,disgust,0,indirect,0,individual,0,other,0
+@user هل تفكر بأن شرب بول البعير ليس بحلال وأنها نجسة ومكروهة ينفر منها الحيوان قبل الانسان؟ فانت كافر زند… @user,offensive,2,anger,2,indirect,0,individual,0,religion,3
+شنو نوع معازيب يامرون خدم المنازل عندهم الحريم بغسيل الحوش والسيايير الساعة ١١ بالليل ماكو احساس ارحم ترحم يا بهيم,offensive,2,sadness,3,indirect,0,individual,0,other,0
+#العراق لما كان يحكمها رجال ولما كان لهم رجال ياخذ حقهم الحين يحكمها خنزير شيعي ورجاله عبده الحسين والنتيجة انهم تح… @url,hateful,1,disgust,0,indirect,0,other,1,religion,3
+@user @user @user خنزير,disrespectful,3,confusion,5,indirect,0,other,1,other,0
+من هذا المنبر احب اقول الله ياخذ عمر الحريم,offensive,2,disgust,0,direct,1,women,2,gender,2
+@user @user خنزير مخرفن,offensive,2,disgust,0,direct,1,individual,0,other,0
+@user لما تشوفين مجتمع يستخدم كلمة حرمة او بنت كـ سبة، فغير مستغرب انهم يعاملونك كـ قاصر. يشوفونك ناقصة عقل، و الحرية بتخربك.,normal,5,shock,1,indirect,0,women,2,gender,2
+ما تفكر كل الناس متلكم يا شاربي بول البعير,hateful,1,disgust,0,indirect,0,other,1,origin,1
+ترى حتى الحريم عندهم شنبات بس شايلات ليزر,normal,5,indifference,6,indirect,0,women,2,other,0
+الكلب لا يعض اذن اخوه كذابين خنازير @url,hateful,1,disgust,0,indirect,0,other,1,other,0
+انت وسخ اوي اوي ان شاء الله تتفضح ومحدش يسترها عليك اللهم اميين @url,normal,5,indifference,6,indirect,0,individual,0,other,0
+@user @user اي فتن اي خرابيط وش تخربطين انتي ماطيقهم لسانهم وسخ,offensive,2,indifference,6,direct,1,individual,0,other,0
+@user @user والله لو احطه شيخ على حمير بينطقون بيحلفون انهم خنازير ............ عشان مايكون شيخهم هالنغل,offensive,2,disgust,0,direct,1,individual,0,other,0
+لو تدخل كان سمع دعاء السوريين و الفلسطينيين و العراقيين و الافارقه المسلمين الي يدعون ل… @url,normal,5,sadness,3,indirect,0,other,1,religion,3
+زي ما في حملات ضد التحرش والتنمر والعنصرية وو ياريت نشوف حملات ضد العقاب الابوي وتسلطهم وتشويه نفسية ابنائهم، عمر و… @url,offensive,2,confusion,5,indirect,0,other,1,other,0
+@user وانتم بس قاعدين تخنثوا بعض وناطرين الناس تبلعكم مثل البهايم .. ما في أخس وأنجس منكم يا خنازير !!,offensive,2,disgust,0,indirect,0,other,1,other,0
+معاك ريال تسوين ريال ، لايضحكون بعقلك خنازير… @url,disrespectful,3,sadness,3,indirect,0,individual,0,other,0
+@user @user @user خلافنا مع الشوال لأنه أتدخل في شؤون نادينا ف بالتالي هيسبب ضرر لينا ف كل… @url,normal,5,indifference,6,indirect,0,individual,0,other,0
+@user @user على وقتها انتو كنتو على بول البعير,offensive,2,shock,1,direct,1,other,1,origin,1
+@user والله أتاري في ذباب كثير و خنازير كثيرة في تويتر اليوم أتعرف على خنزيرة جديدة اسمها غادة ..ما اعرفك بس… @url,abusive,0,shock,1,direct,1,individual,0,other,0
+@user @user شكلك مكتر شرب من بول البعير يا سعوري .,hateful,1,indifference,6,direct,1,other,1,origin,1
+@user @user @user ههههههههه نبقى تاج رأسك حقك هذا تأثير بول البعير الذي تشربون  @url,disrespectful,3,disgust,0,direct,1,individual,0,other,0
+صباحووو خنازيري السمينة حابب افطر على خنزير منكم خنزير,hateful,1,disgust,0,indirect,0,other,1,other,0
+@user @user جمهور وسخ,offensive,2,disgust,0,direct,1,other,1,other,0
+@user ما هو تخصص الشنقيذي هذا هل هو مدرس في السياسة ام عام الإجرام ام انه جاء ليقبض بالدولار ويكذب على خنازير ا… @url,hateful,1,shock,1,indirect,0,other,1,other,0
+من الواضح ان هدي عبد المنعم متجوزة (2)وخلفت خروفين واحد اسمه احمد السيد والتانى اسمه جهاد خالد,offensive,2,indifference,6,direct,1,individual,0,other,0
+لم أرى اقذر من خنازير الدواعش الا من يبررون فعلتهم  .,normal,5,indifference,6,direct,1,other,1,religion,3
+@user @user مع الايام بتقول يحق لهم التحرش بالبنت اللي جالسه ببيتها ليش جالسه,offensive,2,indifference,6,indirect,0,women,2,gender,2
+فرنسا تدعو لإنشاء مراكز لعبور اللاجئين الأفارقة في ليبيا @url,normal,5,sadness,3,indirect,0,african_descent,3,other,0
+@user يعني ابن العبيطة ده المخابرات القطرية هتجند مساعدين مبس عشان يقتلولها مثلا .. دي اخرة بول البعير والله,offensive,2,indifference,6,indirect,0,other,1,other,0
+@user هذه ارض ولها شعب ولولا تخاذل حكام العرب وتواطؤهم مع المحتل كان الان لا يوجد اي خنزير محتل على ارضنا،… @url,offensive,2,shock,1,direct,1,other,1,origin,1
+ليت للسنة كيان يقف في وجه ايران..ومن قبلها إسرائيل..حينها لن تجرؤ إيران ولا غيرها على التحرش بأي بلد عربي..,normal,5,shock,1,indirect,0,other,1,religion,3
+ليش عندهم التحرش ظاهرة خطيرة مع ان الدعارة مرخصة ومراقص الستريب تيز وشواطىء العراة محذفة بكل مكان؟ @url,offensive,2,indifference,6,direct,1,other,1,other,0
+زمان كان الرجال فوق الخيل والحريم يتفرجون والان صا… @url,normal,5,sadness,3,indirect,0,other,1,other,0
+@user ما انصحك العن ناس في التدريس الحريم,offensive,2,disgust,0,indirect,0,women,2,gender,2
+@user @user @user @user نتشرف يا خنزير المجوس أن تكون صواريخ صدام التي دكت عروش المجوس ومرغ… @url,offensive,2,anger,2,direct,1,other,1,origin,1
+قدم الاستاذ زكريا الفارسي ( مشرف إرشاد اجتماعي)بالتعاون مع أداره المدرسة والاخصائي الاجتماعي  الاستاذ زايد المعمري… @url,normal,5,indifference,6,direct,1,individual,0,other,0
+@user وكيف اقنعك الموساد أنك تكون عميل لها. وانك خنزير وليس آدمي ولاتحمل من الآدميه ذرها.,abusive,0,shock,1,direct,1,individual,0,other,0
+@user @user لا تنسى ان بيننا خنازير,abusive,0,indifference,6,indirect,0,other,1,other,0
+يا جماعه كفايه ام الحوارات دي شكلكوا بيبقي وسخ فشخ بعد كده,disrespectful,3,sadness,3,indirect,0,other,1,other,0
+محمد سعد عبدالحفيظ .. عضو مجلس نقابة الصحفيين .. تم الاعتداء على الصحفيين بالضرب والشتم .. و تم التحرش بزميلة !!!!!… @url,fearful,4,sadness,3,direct,1,other,1,other,0
+عمرك شفت مصاري بتسحب عليك ؟ طب عمرك سمعت انه المصاري بتكذب ؟ مين وسخ الدنيا هسا ؟,offensive,2,indifference,6,indirect,0,other,1,other,0
+صحبك اب سن مشرومة مجكس؟ — بايره ساي دا @url,offensive,2,indifference,6,indirect,0,women,2,gender,2
+@user ناخذ الكلام من متبرجه قاعده بالديسكو,normal,5,anger,2,direct,1,individual,0,gender,2
+تنرفزوا خنازير ليفربول قاموا يضربون فيه !!!,disrespectful,3,indifference,6,direct,1,other,1,other,0
+@user @user شنو اللواكه ياشاربي بول البعير يا اذناب الاستعمار يابقرة ترامب,abusive,0,shock,1,direct,1,other,1,origin,1
+منحرفة @url,offensive,2,sadness,3,indirect,0,individual,0,gender,2
+ايقنت ان فيه جمال يخلي الحريم يقطعون يدهم بدال الفواكه,normal,5,indifference,6,direct,1,women,2,other,0
+احنا كلنا كان مضحوك علينا من خنازير الاعلام المصري اتضح ان الشعب القطري شعب راقي وجميل وبعدين انتو اصلا دوله متقدمه… @url,offensive,2,indifference,6,direct,1,other,1,origin,1
+@user @user @user معليش تقريبًا كل البلدان العربية مخزية بس ما تقدر تنكر إن مصر فعلًا بلد التحرش و ا… @url,abusive,0,shock,1,indirect,0,other,1,gender,2
+فهي من حرمتني  الدكتوراه بكل أنواع التحرش و كذلك التوظيف وشغلتني والشكاوى القضائية ضدي و التواصل من أجل السياسة ثم… @url,normal,5,sadness,3,direct,1,individual,0,other,0
+#الدستور | خنزير متعصب.. مناقشة حول الهجرة تتحول إلى سيل شتائم لترامب,offensive,2,disgust,0,direct,1,individual,0,other,0
+@user @user @user ناس طاحت فالابل  وناس جاهم غلاث   ع ع  بول البعير   وناس تبلع من هالكيماويات… @user,disrespectful,3,indifference,6,indirect,0,other,1,other,0
+محنه مولعه مولع ممحونه قحبه ليز دياثه تجليخ اجلخ نجلخ ديوثه ساديه ديرت… @url,abusive,0,shock,1,direct,1,individual,0,other,0
+@user @user جمال ريان شيخ خنازير الخنزيره @url,offensive,2,disgust,0,indirect,0,individual,0,other,0
+عنده غيره على عرضة واهله اللي ما يرضا تتطلع معاه زوجتة او اخته متبرجه ولبسها مو محتشم اللي ما يز… @url,normal,5,indifference,6,indirect,0,other,1,origin,1
+@user @user أنظف وأطهر للبقاع المقدسة ، ودعواتنا أن تنفق وتغادر الحياة وهي لم تحج وفي لقاء حميم مع خنزير الضاحية,abusive,0,disgust,0,direct,1,individual,0,other,0
+تأثير شرب بول البعير على بني سلول. @url,disrespectful,3,anger,2,indirect,0,other,1,origin,1
+لكن الغريب في هذا التقرير ان السعودين يشربون بول البعير فهم معذورين في سلوكهم @user,hateful,1,indifference,6,direct,1,other,1,origin,1
+اي وحدة بتنادي بالحرية والكلام الفارغ دا معناها بايرة بس ما اكتر من كدا ..,offensive,2,indifference,6,indirect,0,women,2,gender,2
+هذا الأسبوع، لا صوت يعلو صوت ضحايا التحرش في أمريكا منذ اندلاع قضية تحرش مرشح المحكمة العُليا بزميلته في الثانوية .… @url,normal,5,indifference,6,indirect,0,other,1,gender,2
+مش معنى أنك شخص راضى بوضع وسخ ومبتحاولش تغيره أن المفروض كلنا نبقى زيك، مش من حقك تقول لحد عايز يحسن من نفسه ومن حي… @url,disrespectful,3,indifference,6,indirect,0,individual,0,other,0
+@user ويتهمون اهل الجزيره بالهمجيه والتخلف وشرب بول البعير وهم يضاهون العالم بهمجيتهم ووحشيتهم,hateful,1,confusion,5,direct,1,other,1,other,0
+في اهم من بول البعير @user,abusive,0,indifference,6,indirect,0,other,1,origin,1
+والله انا معاك بس مش معناه بردو انهم يلبسوا لبس ضيق وفخادها وصدرها كله هيبظ من الهدوم فا متكلموش عن التحرش غيرلما ت… @url,offensive,2,shock,1,indirect,0,women,2,gender,2
+@user @user خلي اليمن تكون زي عدن اهم شي مافيها روافض مجوس  مافيها ولاية الفقية مافيها ملالي ايران… @user,abusive,0,shock,1,direct,1,other,1,origin,1
+مسكين كان الله في عون اخوتنا السوريين على هذا وأمثاله..,abusive,0,indifference,6,indirect,0,other,1,other,0
+عشان ربنا مدينا هندوس عليهم,normal,5,indifference,6,indirect,0,other,1,other,0
+أسؤء شئ يمكن أن تراه فى حياتك أن يسخر انسان مصرى من احد الافارقة فى المترو ويضحك على تسريحة شعره او بشرته السوداء .… @url,normal,5,sadness,3,direct,1,african_descent,3,origin,1
+يقال عن المرأة أنها أدخلت #جن في قرعة# لكن للأسف لم تستطع حتى إدخال رجل إلى #قفص ذهبي#  قعدتي تبعي في القرع حتى بقيتي بايرة,offensive,2,sadness,3,indirect,0,women,2,gender,2
+؛ متحنش لحد باعك يا وسخ.,disrespectful,3,sadness,3,direct,1,individual,0,other,0
+@user يا بايره ياعانس,hateful,1,anger,2,direct,1,women,2,gender,2
+@user هو مبيبقاش رايق غير لما نبقى عارفين اننا هندوس على وشهم,offensive,2,confusion,5,indirect,0,other,1,other,0
+@user نشر غسيلهم نشر  وكواهم . خنازير الجزيرة ونظام الحمدين تحية لك  يا جيري ماهر,hateful,1,disgust,0,direct,1,other,1,other,0
+@user @user طبيعى ابن الوسخ وسخ,abusive,0,shock,1,indirect,0,individual,0,other,0
+فتوى جديدة من #العراق يجوز شرب بول البعير وبول البقر وبول الماعز  ، اترك التعليق لكم . @url,disrespectful,3,indifference,6,indirect,0,other,1,origin,1
+ما بدي كون متطفّل، أعتقد أنّهم يأكلون الضّبّ ويتعاطون بول البعير، وكفى ذلك شحار وتعتير. @url,abusive,0,anger,2,indirect,0,other,1,other,0
+@user @user انقلي لنا البشائر عن دهس خنازير المجوس,hateful,1,indifference,6,direct,1,other,1,other,0
+تكشف المرأة سبب التحرش!…,abusive,0,indifference,6,indirect,0,women,2,gender,2
+و انخرسوا منك الها لافنشها من التربية و اطلعكم من الكويت! يا خنزير عيلة خنازير! و انخرسوا ما بدّي اسمع حسكم و اذا ب… @url,offensive,2,anger,2,direct,1,other,1,origin,1
+ليفربول يلعن ابو القذارة اللي فيكم يا خنازير,offensive,2,indifference,6,indirect,0,other,1,other,0
+@user @user ههههههههههه انا بسهوله اعصب ولساني وسخ لايغرك طيبي انا عصبيه,normal,5,shock,1,indirect,0,individual,0,other,0
+كل المنظفات ديه و برضو اخترت تبقى وسخ معايا @url,offensive,2,indifference,6,indirect,0,individual,0,other,0
+حطمت أغلال يدي بكل خنزير أسدي.,normal,5,shock,1,indirect,0,other,1,origin,1
+ما أعظم موقفك عند الله يا متبرجة يا من خلعت النقاب وتبرجت وفتنت المسلمين,hateful,1,indifference,6,direct,1,women,2,gender,2
+مطلق الهاشتاق حقير وضيع وكذاب  هذي حركات خنازير جزيرة شرق سلوى#يوسف_علاونة_يسي_للسعوديين,hateful,1,shock,1,direct,1,other,1,other,0
+@user @user @user هذا لو هم رجال ... هذولي قرود و خنازير,offensive,2,anger,2,direct,1,other,1,other,0
+شي طبيعي قناة خنازير  #الجزيرة_تطعن_بالقران_الكريم,offensive,2,anger,2,indirect,0,individual,0,origin,1
+انت وسخ اوي اوي ان شاء الله تتفضح ومحدش يسترها عليك اللهم اميين @url,offensive,2,indifference,6,indirect,0,individual,0,other,0
+@user @user @user واضح انكم تكذبوها ع سالفه ان الحريم يقعدن بالارض  ولا انا فهمت غلط ودرعمت؟,offensive,2,indifference,6,indirect,0,women,2,gender,2
+@user نفس الزومبي ده بيدافع عن المتحرش ويضرب اللي يحاول يمنعه من التحرش,offensive,2,indifference,6,indirect,0,women,2,gender,2
+مش عايز احبط حد بس بعد ما سافرت و شوفت الحريم اللي بجد اجانب و عرب و كدا اكتشفت ان الحريم المصرية  هم سبب النكد و سبب الوفاه المبكر,abusive,0,shock,1,indirect,0,women,2,origin,1
+@user @user اقول ..خليك على شرب بول البعير احسلك..لاتكون تخلط بول باكستاني معاه..,offensive,2,disgust,0,direct,1,individual,0,other,0
+@user @user مادام كفرت بالله كل خنزير!!!! ههههههههه اهبل,disrespectful,3,disgust,0,direct,1,individual,0,other,0
+@user @user @user وسيدحر تنظيم الاخوان الارهابي وسيعود الجنوب وسيعود خنازير الشمال لحظيرتهم باذن الله.,offensive,2,indifference,6,indirect,0,other,1,other,0
+وهذه الظروف مثل صعوبة الزواج أو ترسخ بعض العبارات في عقلية الشاب مثل إن كل إمرأة متبرجة هي قليلة شرف وغيرها...! و… @url,normal,5,sadness,3,indirect,0,women,2,other,0
+على اي دين اي ملة هذا خنزير من ال سلوك قسم بالله الاسلام بريئ منكم ومن افعالكم لعنكم الله @url,hateful,1,anger,2,direct,1,individual,0,origin,1
+@user @user @user خنزير,abusive,0,disgust,0,indirect,0,other,1,other,0
+حضيرة خنزير اطهر من اطه…,normal,5,disgust,0,direct,1,individual,0,origin,1
+يا جماعه مبحبش الكلام الكتير إللى يعرف يهيجنى ع امى ويقول كلام وسخ وشتيمه عليها يكلمني غير كدا لا@user انا زوبرى بيوقف  من كلامكم وشتيمتكم,offensive,2,disgust,0,direct,1,other,1,gender,2
+لا للتصنيف عندما يتوقف تصنيف التي لم تتزوج بالبايرة، عندما يتوقف وصف المطلقة بالعاهرة عندما يتوقف تصنيف ا…,normal,5,shock,1,indirect,0,women,2,gender,2
+#في_بلادك_تقدري تعيشي بلا ما تسمعي : عورة ، بلاصتك فالكوزينة ، مسطاشة ، عاهرة ،  بايرة ...,offensive,2,sadness,3,direct,1,women,2,gender,2
+@user @user @user @user @user ايها الحمار انت الظاهر مكثر من شرب بول البعير… @url,offensive,2,shock,1,direct,1,individual,0,origin,1
+@user وهل يوجد ابشع من هاؤلاء هُم المتأمرون ع اليمن وشعب اليمن هُم من تأمرو ع ليبيا العراق سوريا فلسطين السودان… @url,hateful,1,anger,2,direct,1,other,1,origin,1
+@user @user @user @user رافضي وافتخر لرفض دينكم القذر دين ابن تيميه واسلافه من هنا جائت اسم الرا… @url,hateful,1,shock,1,direct,1,other,1,other,0
+ناقشه بمعزل تاااااااام عن قضية التبرج,normal,5,indifference,6,indirect,0,individual,0,other,0
+بي اوت يطلعون فاصل اذا جات جوائز الحريم بروح اقول لنسويات يلعنون والديهم,offensive,2,shock,1,indirect,0,women,2,other,0
+قدم نادي القانون بالتعاون مع مركز الدراسات الجنائية محاضرة بعنوان #التوعية_بنظام_مكافحة_التحرش ، ألقتها د.سحر الهبد… @url,normal,5,indifference,6,direct,1,women,2,other,0
+مودريتش هيتظبط من الصحفيين بس الجماعة الافارقة و الاسيوين اللي م… @url,normal,5,indifference,6,indirect,0,individual,0,other,0
+@user @user كلهم خنازير المجوس,abusive,0,anger,2,indirect,0,other,1,other,0
+@user @user @user @user اشرب بول البعير انت ماعندك الا هذه الجملة بصراحة اشرب بول… @user,disrespectful,3,disgust,0,indirect,0,individual,0,other,0
+يا بايره يالي كل دفعتك مخطوبين . @url,disrespectful,3,indifference,6,indirect,0,women,2,gender,2
+@user @user ادأ جيد من خنزير ناطق,hateful,1,disgust,0,indirect,0,individual,0,origin,1
+صالح بن عبدالله السليمان: السعودية: هذا ردي على تهم “الوهابية” الرجعية.. بول البعير.. وتدمير العراق… @url,offensive,2,disgust,0,indirect,0,individual,0,other,0
+@user @user محامي ايش محامي خنازير او قرود,hateful,1,anger,2,indirect,0,individual,0,other,0
+@user والمذابح التركيه في جزيره العرب تبا لكم با خنازير,hateful,1,indifference,6,indirect,0,other,1,origin,1
+@user والله شي مؤسف   من محتشمه الى متبرجه  ياحسافه ... @url,normal,5,indifference,6,indirect,0,individual,0,other,0
+@user يعني التحرش مبرر اذا كان في ضحية ؟؟ هاد اللي فهمتو من تعليقاتهن تفو ع هيك مخ بسس ..,normal,5,indifference,6,direct,1,women,2,gender,2
+@user والله انا ارى ان الإعلام #القطري اكثرهم ضرراً وخبثاً للعالم وليس لمجتمع!,hateful,1,shock,1,indirect,0,other,1,origin,1
+طبعا التويته ودوها الفيس و تقريبا 90% من تعليقاتهم اني زولة بايره و فاكه العلاقه شنو ما عارفه و كميه شتايم كفيلة بإ… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+صراحه| يلا چب نجسين انتوا يا خنازير سبحتها و خننتها و شحلاتها عسوله,offensive,2,disgust,0,indirect,0,other,1,other,0
+@user @user الله خلقنا بشر مو خنازير. ع كلن شكرا اذا شايفه هالوجه لطاهر خنزير,normal,5,indifference,6,direct,1,individual,0,other,0
+@user لحم خروف يعطيه الحكككة  ع خنزير كدة يعطيه الدياثة,abusive,0,indifference,6,indirect,0,other,1,other,0
+استقبال كبير لأكثر واحد وسخ بالكون  هدفهم نكاية الاهلي ولكن اهانوا انفسهم بأنفسهم. @url,hateful,1,shock,1,indirect,0,other,1,other,0
+@user @user اجلدهم فهم خنازير بصور بشر  الفلسط معروف عنهم الخيانه والغباء لانهم راضعين حليب يهود واصبحو انجز واقذر بشر,abusive,0,shock,1,indirect,0,individual,0,religion,3
+حضيرة خنزير اطهر من اطه…,normal,5,shock,1,direct,1,individual,0,origin,1
+هل تعلم ما معنى كلمة نيتفلكس؟ نيت اختصار لنيتينياهو، فليكس من الكورن فليكس وهو يحتوي على دهن خنزير انشرها بقدر حبك لmbc2,offensive,2,indifference,6,indirect,0,other,1,other,0
+يارجال التحرش بقى الكتروني كوني اقول ليك منقا او اقول ليك بيبي ده يعتبر تحرش الى ان ياتي مهند شاد اوغلو فيصبح غزلا,offensive,2,indifference,6,indirect,0,women,2,gender,2
+@user @user كيف تقولون على ترامب خنزير اونتم عندكم اكبر قاعدة عسكرية له؟! الله يلعن حليب الحمير الي سوا في عقولكم كذا,offensive,2,indifference,6,direct,1,other,1,origin,1
+@user @user الم تملوا من اثارة الفتن يا خنازير الجزيرة؟,offensive,2,indifference,6,direct,1,other,1,origin,1
+@user منافق ووصولي وفاشل كلبك منطقي اكتر منك يا بهلة لا وش حلو ولا .....ناعمة جابوك لاءنك لسانك وسخ ومقرف… @url,disrespectful,3,disgust,0,direct,1,individual,0,other,0
+@user @user دراعه كان مصاب ياشارب بول البعير,disrespectful,3,indifference,6,direct,1,individual,0,other,0
+@user @user كلهم خنازير المجوس,hateful,1,disgust,0,indirect,0,other,1,other,0
+ما أرخ عن شمائل ال سعود هو ميولهم الجنسية الشاذة القذرة مسخهم الله قرود و خنازير,abusive,0,indifference,6,direct,1,other,1,other,0
+انظر لاي طائفة ينتمي,normal,5,shock,1,direct,1,individual,0,other,0
+لو تفكرون فيها فكرة الكرتون منحرفة، تخيل دكتور طفش و قال بسوي لي ثلاث بنات صغار يعيشون معي @url,normal,5,indifference,6,direct,1,individual,0,other,0
+@user والحين ماشاء الله ايش تصدرون ؟ بول البعير !!!! يا رجال قوم انقلع,normal,5,indifference,6,indirect,0,individual,0,origin,1
+فيديو| صحفية تضرب مشجع حاول التحرش بها على الهواء @url,normal,5,shock,1,indirect,0,women,2,gender,2
+رؤساء اتحادات الرماية الافارقة في زيارة الي قناة السويس الجديدة @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user @user آه البخاري قال اشربوا بول البعير تمام اصدقك الان,abusive,0,indifference,6,direct,1,individual,0,other,0
+للي تصور تبعد عن صور الحريم والصراخ  والله شيء ماهو حلو بحق شاعرنا ولا بكم أبتعدوا عن الصراخ ليش تصرخون.   وشكرا لك… @url,normal,5,indifference,6,indirect,0,women,2,gender,2
+والبلطجي كان خنزير بنجمة على الكتاف.,offensive,2,disgust,0,indirect,0,other,1,origin,1
+الكيرفي. ياريس. عشان التحرش  @url,offensive,2,sadness,3,indirect,0,women,2,other,0
+@user @user من افريقيا مالابو,normal,5,sadness,3,indirect,0,african_descent,3,origin,1
+ولكن نريد كتاب المعمم الرافضي إلى يقول أن الرافضة خنازير بل كلاب @url,abusive,0,disgust,0,direct,1,other,1,religion,3
+ممكن اعرف انا مين اللى بيقود المؤامرة على ماسر يا خنازير,abusive,0,shock,1,indirect,0,other,1,other,0
+@user @user فئة خنازير,hateful,1,indifference,6,direct,1,other,1,other,0
+@user @user @user حتى في الدول الغربية ينتشر التحرش وتبرج النساء مساهم كبير في ذلك,normal,5,shock,1,direct,1,women,2,gender,2
+@user هاهاهاهاها  عم تحطووو اخبار السعودية  بول البعير عاطي تأثيررر قوي كتير,offensive,2,indifference,6,direct,1,other,1,origin,1
+لأن التبرج اساسه عدم تربيه او تشويه…,abusive,0,indifference,6,direct,1,women,2,other,0
+@user لو انتم رجال يا خنازير اكشفوا عن اسمائكم و وجوهكم  يا جواري بن سلمان و بعدها نتحدث,hateful,1,indifference,6,indirect,0,other,1,origin,1
+ذنب الكلب اعوج اجلكم الله.... الفرس لهم رب والعياذ ب الله...خنازير الفرس بيننا ك عرب @url,hateful,1,disgust,0,direct,1,other,1,origin,1
+@user @user ههههههههههه ههههههههههه ههههههههههه بد تعتبر نفوسكم رجال  يا خنازير لو كنتو رجال ماجبتو مرتزقة م… @url,offensive,2,disgust,0,indirect,0,other,1,origin,1
+يعني هو حلو ليكم يا بتوع بول البعير يدخل دولتنا ويشتم في رموزنا ولما جمهورنا يرد عليه يبقى ازمة وفتن… @user,hateful,1,indifference,6,indirect,0,other,1,origin,1
+@user @user اليمن مرمطة بسعودية وهي بدون سلاح مابالك بايران وهيا دوله مصنعه باتخلي الخونة أمثل… @url,offensive,2,sadness,3,direct,1,other,1,origin,1
+@user مأثر عليهم بول البعير…,normal,5,indifference,6,indirect,0,other,1,origin,1
+مقال رائع ولكن نريد  مقالات  فكرية  ووطنية-شعرة من جلد خنزير | الشرق الأوسط @url,abusive,0,indifference,6,indirect,0,other,1,origin,1
+اللهم ابعد عنى الحريم والحرام,normal,5,indifference,6,indirect,0,other,1,origin,1
+@user لقتل أهل اليمن يا شارب بول البعير يا زق الصحراء,hateful,1,shock,1,indirect,0,other,1,origin,1
+@user هاذ خنزير خاين وكلب من خان بلده يعتبر خنزير مشررد لعنه الله,abusive,0,anger,2,indirect,0,individual,0,other,0
+@user @user خنزير اجلكم الله هذا المعتوه,abusive,0,indifference,6,indirect,0,individual,0,other,0
+عصائب أهل الحق والحشد الشعبي الأرهابي بالعراق مرتزقة عملاء إيران ،الحوثيين باليمن خنازير إيران باليمن ، وحزب حسن زم… @url,hateful,1,disgust,0,indirect,0,other,1,origin,1
+مسكين كان الله في عون اخوتنا السوريين على هذا وأمثاله..,normal,5,disgust,0,indirect,0,other,1,other,0
+@user @user عالم شيعي يوصي بشرب بول البعير @url,abusive,0,indifference,6,indirect,0,other,1,religion,3
+وباير : بمعنى كسول او عدم اظهار الجدية في الامر,normal,5,indifference,6,direct,1,other,1,other,0
+@user @user لا بتشوف خنازير ايران وتركيا,offensive,2,disgust,0,direct,1,other,1,origin,1
+التاسعة يا اهلي #افريقيا_يا_اهلي,normal,5,indifference,6,indirect,0,other,1,other,0
+@user @user  نور قوليلها انها بايرة عشان إللى بتعملوا فينا ده كتير اوى والله,fearful,4,confusion,5,direct,1,individual,0,gender,2
+@user ههههه لا ي ءءموره دوم الحلوه يغارون منها الحريم ويسبونها,normal,5,indifference,6,direct,1,women,2,gender,2
+ياعالم مقتل 16 في سجون ذيل الكلب تحت التعذيب في سوريا ويمكن فرحانين بالخبر  قسماً بالله لو لي من الامر شيء في هاذه… @url,offensive,2,indifference,6,direct,1,other,1,other,0
+من هذا المنبر احب اقول الله ياخذ عمر الحريم,offensive,2,anger,2,direct,1,women,2,gender,2
+@user لاعبي الكرة الافارقة معظمهم عاهرين للاسف،,disrespectful,3,anger,2,indirect,0,african_descent,3,origin,1
+فنحن نطالب كل متبرجة أو سفور تتعرض للإغتصاب أو التحرش أن تتحجب لأ… @url,abusive,0,shock,1,indirect,0,women,2,gender,2
+هذا الإعلامي. وعيناته في قناة الخنزيره.  مثل القربه  الخرقاء.   شغله الشاغل بلاد الحرمين. .   واقول له كما يقول فيس… @url,offensive,2,indifference,6,indirect,0,individual,0,other,0
+@user وين بيلقوها الكلبه يلي تقبل ترضع خنازير حاشاك,offensive,2,indifference,6,indirect,0,individual,0,origin,1
+٨٠٪ من قضايا #التحرش والأعتداءات الجنسيه على البنات القاصرات  التي وصلتني كان سببها إهمال #الأم وانشغالها بمشاويرها… @url,normal,5,anger,2,direct,1,women,2,gender,2
+@user لايهمك خرابيط الي تشرب دافي وينظف،، سوي تنظيف بالعكس ممتاز لصحة ارحامك .. عندنا خرافات الحريم مابعد بطلوها,disrespectful,3,indifference,6,direct,1,women,2,gender,2
+@user @user زي الكلاب تنزلون التغريده وودي اشوف وجيهكم وانتم تنزلونها ابو من جمعكم خنازير,disrespectful,3,disgust,0,direct,1,other,1,other,0
+@user والله مورينهو اكبر من ناديكم يا خنازير,offensive,2,indifference,6,direct,1,other,1,origin,1
+@user لإن التحرش وسيلة ردع للإناث عن أنهم يخرجوا عن سطوة وسيطرة الجنس الاعلي,abusive,0,indifference,6,direct,1,women,2,gender,2
+شراميط افريقيا بقوا بيتكلموا ! @url,abusive,0,indifference,6,indirect,0,african_descent,3,other,0
+@user هههههههههههه والله انكم صهاينه وانكم من تدعمون اسرائيل يا مملكة بول البعير اما هذا الطفل فهو بيقول الحقيقه فقط يا مناشير,normal,5,shock,1,direct,1,other,1,origin,1
+@user كفو يا أكرم حجر لك متابعينك ياصمصام لايهمك خنازير المجوس من العرب,disrespectful,3,indifference,6,indirect,0,individual,0,other,0
+على أعداء الدين والوطن خنازير إيران,hateful,1,anger,2,indirect,0,other,1,other,0
+@user @user اجلللللد خنازير الطرابيش,hateful,1,shock,1,indirect,0,other,1,other,0
+هندوس علي وش امك انتا واللي معاك يا ولاد الوسخه..,offensive,2,disgust,0,direct,1,other,1,other,0
+@user @user من شفت بروفايلك عرفت أنك شخصية قذرة و منحرفة لذلك ماراح أكثر هرج مع الأنجاس أمثالك,normal,5,indifference,6,direct,1,individual,0,other,0
+@user @user ماعمري شفت خنزير يشعر ، الا ألحين فسبحان الله,normal,5,disgust,0,direct,1,other,1,other,0
+@user كل تراب يا خنزير لعنك الله يا كلب ونكل الله بك..,hateful,1,disgust,0,direct,1,individual,0,other,0
+@user @user انجس من خنزير انت وامك اكيد ما مخليه واحد من شرها شو اسمها تسيفي ما خلت زعيم عربي الا ما ن… @url,hateful,1,disgust,0,direct,1,individual,0,other,0
+ودي اكل لحم وانا مدري يطلع خنزير ومقلب عشان نضحك ونكون جربنا بنفس الوقت,abusive,0,anger,2,indirect,0,other,1,other,0
+عيل وسخ هسقطك. @url,offensive,2,indifference,6,direct,1,individual,0,other,0
+@user @user لمن الوحدة تكون بايرة و ياهو بس دا البتركز فيهو,abusive,0,anger,2,indirect,0,women,2,gender,2
+يا بايره يلي كل دفعتك مخطوبين @url,normal,5,indifference,6,indirect,0,women,2,other,0
+مدري من قايل لها بنجيب خنزير مشوي وويسكي @url,abusive,0,confusion,5,indirect,0,other,1,other,0
+@user ملك التزوير...وسخ واللى سايبه اوسخ منه....,disrespectful,3,shock,1,direct,1,individual,0,other,0
+@user يكابتن شريف انت من احسن الحراس ف القاره السمراء وأنا بحبك اووي يا وحش افريقيا فرحتونا بالمكسب ويار… @url,normal,5,indifference,6,indirect,0,african_descent,3,other,0
+@user @user ابن خالتي انا #خنزير_ال_ام_كيه,offensive,2,shock,1,indirect,0,individual,0,other,0
+@user @user والله كيف يندس ي خنزير هذاك الشخص اتي بجواز مزور ولا احد يعلم عنه  يا نجس,hateful,1,disgust,0,indirect,0,individual,0,other,0
+@user @user كبسة بول البعير,disrespectful,3,sadness,3,indirect,0,other,1,other,0
+@user يا بهيم مش هيك بركبو مقطع فيديو حتى بالكذب فاشلين العمى بقلبكن بشو بدكن تفهو يا اخفاد القدرة والخنازير… @url,disrespectful,3,shock,1,indirect,0,other,1,origin,1
+لو فعلاً بيهرب كان هرب لدولة اوربيه مش عربيه يحكمها خنازير ايران هؤلاء اكذب من ابليس ومن ص… @url,hateful,1,indifference,6,direct,1,individual,0,origin,1
+بإختصار أصبحوا خنازير بدياثتها و قذارتها و قبحها,offensive,2,indifference,6,indirect,0,other,1,other,0
+@user لو انا فهمت صح انتى تقصدى ظاهرة التحرش وكدة ف دى  منتشرة فى مصر كلها يا نهى وكمان مأفورة فى القاهرة و… @url,normal,5,sadness,3,direct,1,women,2,gender,2
+وانتي مال امك يا مطلقة يا بايرة ياوش قنوات @url,offensive,2,disgust,0,direct,1,women,2,gender,2
+مش دايرة حجاب = كافرة متبرجة ما تصليش,hateful,1,anger,2,direct,1,women,2,gender,2
+ناوية تعرسي ولا تبقي بايرة ؟ — ابقى بايرة طبعاً @url,offensive,2,disgust,0,indirect,0,women,2,other,0
+@user @user @user ولوكان طلع ولد ودافع عن التحرش لكان سمع ماسمع. والشيخ لم قال كدة بيقصد اللبس بيشجع ع… @url,disrespectful,3,shock,1,direct,1,women,2,other,0
+ولكن ماذا إذا كانت #الحملة_على_التحرش تحتوي على هدف خفي تطبيقاً للحكاية القديمة,normal,5,indifference,6,indirect,0,women,2,other,0
+فيه ناس   تعتبر عباية الكتف تبرج وفيه ناس ماتشوف كشف الوجه تبرج… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user @user @user @user لم اشتم الا اعداء #وطني خنازير #الفرس ولي الشرف بذالك في حال بادر بذالك… @url,hateful,1,disgust,0,indirect,0,other,1,origin,1
+مرة كان فيه دكتور يدرسنا لابتوبه كل أبوه كاتشب وأكل، وسخ مقزز، وما كان فيه برجكتر، فكنا نضطر نطالع في لابتوبه,hateful,1,indifference,6,direct,1,individual,0,other,0
+@user @user حتى اني واضع  إعلام ساعودية  حبا لمكة  ونصرتا  لها لو مثلا تهجم خنازير صهاينة على مكة… @url,offensive,2,indifference,6,direct,1,other,1,other,0
+ملعون ابو المسلسلات و الافلام اللي افقدت الرجالة غيرتها على اهلها ، و خلت الستات تتفنن في ازاي تخون اجوازها بقينا عايشين وسط خنازير مش بشر,abusive,0,indifference,6,direct,1,other,1,other,0
+@user @user لا بالعكس اغلبهم ناس متبريين ولسانهم ينقط عسل من الاخت غادة الي لسانهم وسخ قلة وهذي القلة موجوده… @url,disrespectful,3,sadness,3,indirect,0,women,2,gender,2
+@user لايهمك خرابيط الي تشرب دافي وينظف،، سوي تنظيف بالعكس ممتاز لصحة ارحامك .. عندنا خرافات الحريم مابعد بطلوها,disrespectful,3,disgust,0,direct,1,women,2,gender,2
+على أعداء الدين والوطن خنازير إيران,abusive,0,disgust,0,indirect,0,other,1,other,0
+#في_بلادك_تقدري تعيشي بلا ما تسمعي : عورة ، بلاصتك فالكوزينة ، مسطاشة ، عاهرة ،  بايرة ...,fearful,4,sadness,3,direct,1,women,2,gender,2
+@user @user البعير رمز لابن الصحراء العربي الاصيل لكن انت تشرب من بول الخميني مخلوط مع بول كلب لكونك بدون اصل استمتع,hateful,1,anger,2,indirect,0,other,1,origin,1
+تأثير شرب بول البعير على بني سلول. @url,hateful,1,anger,2,indirect,0,other,1,origin,1
+@user هههههههههههه سهل الوسخ بايجلس وسخ ولو تحمم وتنظف كل يوم,offensive,2,indifference,6,indirect,0,other,1,other,0
+استقبال كبير لأكثر واحد وسخ بالكون  هدفهم نكاية الاهلي ولكن اهانوا انفسهم بأنفسهم. @url,offensive,2,indifference,6,indirect,0,other,1,other,0
+@user نريد حفظ حقوق الرجل من التحرش,normal,5,indifference,6,indirect,0,other,1,other,0
+لقد تعلمت مند زمن طويل ألا أتعارك مع خنزير لأنني بدلك سأتسخ وذلك يروق له,normal,5,indifference,6,indirect,0,other,1,other,0
+بالعادة المتسعودين المسعورين بيستعملوا المنشار تحت تاثير تناول بول البعير..!! @user,offensive,2,shock,1,direct,1,other,1,origin,1
+@user @user مع الايام بتقول يحق لهم التحرش بالبنت اللي جالسه ببيتها ليش جالسه,offensive,2,fear,4,indirect,0,women,2,gender,2
+زي كل مذبحة يطلع أشباه بشر برؤوس خنازير تصقف لقتل أبرياء لا حول لهم و لا قوة و يشمتوا في دمهم,disrespectful,3,sadness,3,indirect,0,other,1,other,0
+كأن الدفاع عن الست حاجه محرمه و غير مرغوب المناقشه فيها و دي عادات غربيه انما احنا هنا هندوس علي الست و نطلع ميتين… @url,normal,5,disgust,0,indirect,0,women,2,gender,2
+@user @user @user @user كلي تبن احسن لك وماعندنا لكم وظايف الا مدق دق خشومكم وبول البعير ا… @url,abusive,0,indifference,6,direct,1,other,1,origin,1
+@user @user @user بول البعير و اثاره !!!!!,normal,5,disgust,0,indirect,0,other,1,other,0
+@user @user معها حق ماتنسى لان التحرش شي مو سهل وصعب نسيانه لكن الغريب انها مابلغت الا لما صار… @url,normal,5,disgust,0,direct,1,women,2,other,0
+@user @user @user الحمدلله آل سعود مافيهم خنازير كلهم ملوك ابناء ملوك ياصاحبة الفتنة,abusive,0,indifference,6,direct,1,individual,0,origin,1
+بول البعير  يحرك اقتصاد العال… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+إلا هجيناً مُشوّهاً من خنازير وقرود..,abusive,0,indifference,6,indirect,0,other,1,other,0
+اول خطوات الفشل هو ان تتزوج وانت معاق عقلي يتزوج لأجل ان يقولو انه تزوج ، ويتزوج لاشباع رغبه وغريزة وشهوة,offensive,2,sadness,3,indirect,0,other,1,origin,1
+دقو جرس  دخلو معاهم #خنزير ريحتو معفنه و بخرا ليهم في الزنزانه كلها مترين في مترين,disrespectful,3,shock,1,direct,1,other,1,other,0
+ومهرجان الجونه هو نهاية طبيعيه لكل متبرجه ا… @url,offensive,2,anger,2,indirect,0,women,2,gender,2
+@user @user خنزير الدوحه صرف اموال الشعب على دعم الارهاب والمرتزقه,hateful,1,indifference,6,direct,1,other,1,origin,1
+كسي ينبض عاهرة منحرفة مص لحس مطلقة مولعه ليز ليزبيان س… @url,offensive,2,anger,2,direct,1,women,2,gender,2
+مارتا ذي ختمت الكوره حقت الحريم,normal,5,shock,1,indirect,0,individual,0,gender,2
+هنعلم الناس تحترم المرأة المتعلمة الغير متزوجة ومتهينهاش بألفاظ زي بايرة بإننا نهين المرأة اللي بتربي العيال ونطلعه… @url,normal,5,indifference,6,direct,1,women,2,other,0
+تخسى وتعقب يا خنزير ..  ولد شوارع ... كفوا العالم الثالث الوسخ المتخلف السافل المنحط مثلك يعلم السعوديين .. تعلموا… @url,hateful,1,anger,2,indirect,0,other,1,origin,1
+تم تصفيه ١٩ خنزير من خنازير الإرهاب @url,normal,5,shock,1,direct,1,other,1,other,0
+@user @user قال الشيعه الصفوين الروافض الاباضيه الاباضيه الاباضيه أنت ينجس يطقعه تتوضا بول البعي… @url,hateful,1,disgust,0,indirect,0,other,1,religion,3
+لمتييييين لمتيين يا ابشرا ؟ لمتين بايرة لي سنتين ي ابشرا  @user  @user  @user,normal,5,confusion,5,indirect,0,other,1,other,0
+قومي سوري داعس راسك يا صرماية,normal,5,indifference,6,indirect,0,other,1,origin,1
+دعسس خنازير #الإسرائيلي #عزمي_حم…,offensive,2,disgust,0,indirect,0,other,1,other,0
+@user @user مع الايام بتقول يحق لهم التحرش بالبنت اللي جالسه ببيتها ليش جالسه,offensive,2,disgust,0,indirect,0,women,2,gender,2
+@user @user أعداء لبنان عملاء أو بالأحرى خنازير  بشار الكيماوي والصفوي- المجوسي. ما فيكم تعيشو إلا تحت… @url,hateful,1,disgust,0,direct,1,other,1,origin,1
+@user هذا الشخص الذي يتحدث عن التحرش فهذا الفديو، مهما كانت درجة تعليمه ، اقسم انه لا يعلم معنى كلمة تحرش، لذالك… @url,offensive,2,sadness,3,indirect,0,individual,0,other,0
+شاهدوا اين وصلت خساسته ... وهو بيننا .. البعير يا خنزير بريطانيا .. في صحاري جميع دول الخليج ايها العفن المجرب  . م… @user,hateful,1,disgust,0,indirect,0,other,1,other,0
+يا بايره يلي كل دفعتك مخطوبين @url,disrespectful,3,indifference,6,indirect,0,women,2,other,0
+@user @user محامي ايش محامي خنازير او قرود,offensive,2,disgust,0,indirect,0,individual,0,other,0
+النايض ما عجبتش نزلت الدولار كيف عاد هكي بتقطعوا علية الاستمتاع  بمعاناة الليبيين واستمتاع خنازير الإمارات… @url,hateful,1,indifference,6,direct,1,other,1,origin,1
+يعني تو لو وحدة ما متبرجة و طالعة حلوة بتقول نريد قانون يمنع الجميلات من الخروج؟ يا بابا روح ربي نفسك و بعدين نتفاه… @url,normal,5,indifference,6,indirect,0,women,2,gender,2
+@user لو كانت هالمسلمه في غزة لربما تم التحرش بها,offensive,2,shock,1,indirect,0,individual,0,religion,3
+@user @user @user انتم خنازير اليهود والصليبيين انتاج بلادنا بلاد المسلمين جميعا 12000000مليون برمي… @url,hateful,1,anger,2,direct,1,other,1,religion,3
+ممكن تعطينى دليل واحد من كتبك او من علمائك على حرمة اوكراهية شرب بول البعير   .... @user,offensive,2,indifference,6,indirect,0,individual,0,religion,3
+@user @user @user اكيد شارب بول البعير مبين من كلامك لان هذه القاذورات التي تتلفض بها اس… @url,disrespectful,3,sadness,3,indirect,0,individual,0,other,0
+هو ليه الاعلام الرياضي كله زعلان  وعايزين الأهلي يلعب ماتش الهلال. الغير معترف بيه دوليا وعنده ماتشات افريقيا   بلا… @url,normal,5,indifference,6,direct,1,other,1,other,0
+@user يا بايره ياعانس,offensive,2,disgust,0,direct,1,women,2,gender,2
+صباح الخير لكل الناس الا اللي بحكو انه لبس البنت هو سبب التحرش,disrespectful,3,confusion,5,indirect,0,women,2,other,0
+منحرفة @url,offensive,2,anger,2,indirect,0,individual,0,gender,2
+٨٠٪ من قضايا #التحرش والأعتداءات الجنسيه على البنات القاصرات  التي وصلتني كان سببها إهمال #الأم وانشغالها بمشاويرها… @url,normal,5,disgust,0,direct,1,women,2,gender,2
+@user @user عاد الحريم اول ناس راح يوافقون عالاقتراح,offensive,2,indifference,6,direct,1,women,2,gender,2
+@user @user @user يا خنزير  لا  تستعجل.  جايكم الدور  خلينا نربيكم في اليمن ونربي قطر. و… @url,hateful,1,indifference,6,direct,1,individual,0,origin,1
+@user @user @user @user الي يشرب بول البعير احسن من الي يشرب المني و يقول عليه المني قوا,offensive,2,disgust,0,indirect,0,other,1,other,0
+#في_بلادك_تقدري تكوني عزباء بلا ما يشفقو عليك و يقولولك بايرة؟,normal,5,indifference,6,indirect,0,women,2,gender,2
+@user @user لا نظرتهم دايم بالمتحرش ، مبعدين كل النظر عن وش اسباب التحرش و ليش تحرش ، ما ابرر له ولا لغيره لكن… @url,abusive,0,indifference,6,indirect,0,other,1,other,0
+اليشوف منشوراتي تافهة (عاوية) منحرفة مال ملحدين يشوفها متناسب ذوقه ويستهزء بيها خلي يحذفني بدون امر عليكم,normal,5,indifference,6,indirect,0,other,1,other,0
+ليمن تكون توك فال و تعلن عودتك حق التحرش بجميع الكائنات الحيه بتويتر و خارج تويتر @url,abusive,0,indifference,6,direct,1,women,2,other,0
+@user لا نوف تقول وجع بشكلك بلهجه جداويه وربي الله لا يوريك من كثر الضحك تطلع خنازير,normal,5,indifference,6,indirect,0,other,1,origin,1
+#تطاول_نعمان_كورتلموش  يدك نجسه وطينتك طينه خنزير تربى على يد يهودي وتتكلم عن بيت الله ايها الداعر؟؟؟؟,offensive,2,shock,1,indirect,0,individual,0,religion,3
+يظل التحرش في نظر الأنثى تحرشا..,normal,5,confusion,5,direct,1,women,2,gender,2
+@user @user @user نظن انك سكران ب بول البعير,disrespectful,3,indifference,6,direct,1,individual,0,other,0
+@user @user الشيعة هم الطائفيين والقتلة المجرمون لا هم مسلمين ولا يقربون للاسلام بشيء بل هم عبارة عن قردة خنازير,abusive,0,disgust,0,indirect,0,other,1,religion,3
+النايض ما عجبتش نزلت الدولار كيف عاد هكي بتقطعوا علية الاستمتاع  بمعاناة الليبيين واستمتاع خنازير الإمارات… @url,hateful,1,disgust,0,direct,1,other,1,origin,1
+رجال مصر حماة الأرض و العرض يرسلون 19 خنزير داعشي لجهنم.,normal,5,disgust,0,indirect,0,other,1,other,0
+هتش الضرطه سابقا هي الذراع الايمن لداعش ولنظام الإرهاب الايراني وميليشيات العلويين ومليشيات الع… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user هذا المستشار الكلب خنزير ومرتد,abusive,0,anger,2,direct,1,individual,0,other,0
+@user @user بتاع بول البعير بيصرفوا عليك وعلى اهلك وعلى بلدك وعلى حكومتك وانت تبيع اللي وراك وقدامك عش… @url,hateful,1,indifference,6,direct,1,individual,0,origin,1
+@user @user حتى انت تتكلم عن مرزوق لكن مرزوق بطل قام طردكم من القاعه يا خنزير,normal,5,indifference,6,indirect,0,individual,0,other,0
+الفيس بوك بقي بالنسبالي مستنقع وسخ اوي والله,disrespectful,3,indifference,6,indirect,0,other,1,other,0
+@user هامبورجر لحم خنزير  انت مش مسلم يا استاذ عمرو,normal,5,indifference,6,indirect,0,individual,0,religion,3
+@user لربما هو بول البعير الذي جعل منك تقدس نظام سفاح مجرم..لا يزال يعتبر المرأة عورة..ويعد منحها رخصة سياقة ان… @url,hateful,1,shock,1,indirect,0,other,1,origin,1
+@user @user هذولا خنازير متعودين على الكذب بايعين ضمائرهم واقلامهم ونباحهم كيف تبي يستقلون؟ مين ي… @url,abusive,0,anger,2,direct,1,other,1,origin,1
+حسب كلامه ان البنت المتبرجه تثير الشباب ، لكن حبيبي الشباب ما يقصروا يتحرشوا بالاخضر واليابس ما بس المتبرجه ، يعني… @url,normal,5,indifference,6,direct,1,women,2,gender,2
+والله محد خروف غيركم والي يطرونه يسواكم كلكم بأخلاقه مب رغاي شرات الحريم ويصيح فصراحه مثلكم ي السبلان @url,disrespectful,3,indifference,6,indirect,0,other,1,other,0
+يظل التحرش في نظر الانثى تحرشاََ,normal,5,indifference,6,indirect,0,women,2,gender,2
+كل الامتحانات سااهله الا لمن تكون المراقبه بايره @url,offensive,2,indifference,6,indirect,0,other,1,other,0
+أودي فقضية التحرش فالمغرب، بلا مندويو على الأشخاص، راه القانون براسو خاصة يمشي للحبس,normal,5,indifference,6,indirect,0,women,2,other,0
+مارتا صاحبة الجايزة وصاحبة الكورة بتاعت الحريم نفسها من اول ما اخترعوها,normal,5,indifference,6,direct,1,individual,0,gender,2
+@user @user إلى هيئة كبار العلماء  ،،، هل هذا يجوز  ؟ أمرأة متبرجة حاسرة شعرها تظهر على التلفزيون السعودي الرسمي   !!!!!,offensive,2,disgust,0,direct,1,women,2,gender,2
+@user كلب خنزير اش من بطل,offensive,2,indifference,6,indirect,0,individual,0,other,0
+@user مفاعل نووي ام يبحثون عن بول البعير,offensive,2,disgust,0,indirect,0,other,1,origin,1
+لا تصارع خنزير في الوحل..   فتتسخ أنت و يستمتع هو..,abusive,0,indifference,6,indirect,0,other,1,other,0
+بيض الله وجهك ولو أن كل ملقلته قليل في حق خنازير الحقيرة خونة العروبة والإسلام @url,offensive,2,indifference,6,direct,1,individual,0,other,0
+#ديوث موجود في العين تريد نتعارف كلمني ...,offensive,2,shock,1,direct,1,individual,0,other,0
+@user ههههه أولاها بترضى بعدين بتبدا بالطلبات  والمشاكل هؤلاء الحريم,hateful,1,shock,1,indirect,0,women,2,gender,2
+لا ضرر من تهريبهم الى السعودية,normal,5,indifference,6,indirect,0,other,1,other,0
+صالح بن عبدالله السليمان: السعودية: هذا ردي على تهم “الوهابية” الرجعية.. بول البعير.. وتدمير العراق… @url,offensive,2,indifference,6,indirect,0,individual,0,other,0
+ياخي اللاعبين الافارقة على اخر ايامهم يبدون يتشرطون ..,normal,5,disgust,0,direct,1,african_descent,3,origin,1
+@user لعنة الله على ابناء المتعه خنازير قذره لادين ولاضمير,abusive,0,shock,1,direct,1,other,1,religion,3
+@user كلب خنزير اش من بطل,disrespectful,3,anger,2,indirect,0,individual,0,other,0
+@user @user @user بول البعير ولا مجاري اسرائيل,normal,5,disgust,0,indirect,0,other,1,other,0
+واقترح أن يقدم له السوريون عدد  1000 وس… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user @user لا ما في جزمة سورية على الرقاب. قبل كان في وهني كانوا يقرروا. فكرنا السوري كان وسخ طلع ابن… @url,disrespectful,3,shock,1,indirect,0,other,1,origin,1
+مانشري فلوسه حنا نشري رجال برجولته،والفلوس وسخ دنيا يوم تجي ويوم تروح عادي قروض وديون… @url,offensive,2,indifference,6,indirect,0,other,1,other,0
+ويجيك رافضي بهيم ويقلك سيدنا عمر كسر ضلع فاطمه  وسيدنا علي يتفرج  غيره سيدنا علي من السواك  علي فاطمه مابالك احد يكسر ضلع زوجته.,offensive,2,indifference,6,indirect,0,other,1,other,0
+#الدستور | خنزير متعصب.. مناقشة حول الهجرة تتحول إلى سيل شتائم لترامب,disrespectful,3,disgust,0,direct,1,individual,0,other,0
+الخنزيره مصدومه من فوز الجمهوريين ههههههه طارت فلوسك ي خنزير @url,offensive,2,shock,1,indirect,0,other,1,other,0
+@user @user لو انها بنت سعوديه يالكلب الخسيس كنت تنابح ضدها متبرجه وكاشفه هههه اما ذي لا كويسه ابوك ياخروف,offensive,2,disgust,0,direct,1,women,2,origin,1
+في 2012 خلال مباراة الفريقين قامت جماهير ريفر بليت بإطلاق خنزير طائر يرتدي قميص البوكا فوق جماهير بوكا جونيورز @url,normal,5,indifference,6,indirect,0,other,1,other,0
+خليك في قوقعة شرب بول البعير بتاعتك دولة رمزها خيمة وجمل ولبن معيز,disrespectful,3,indifference,6,indirect,0,other,1,origin,1
+@user لا دا هندوس علي وشهم متقلقش,normal,5,indifference,6,indirect,0,other,1,other,0
+فقط موتوا بغيظكم خنازير الصهاينة @url,abusive,0,sadness,3,indirect,0,other,1,other,0
+قررت افتح استشارات عاطفية واجتماعية في  صراحة بما انو التايملاين حالو واقف بسبب التحرش وماعارف شنو ... فااا حبابكم,disrespectful,3,disgust,0,indirect,0,individual,0,other,0
+@user @user في حريم مستعجلات على بالها سواقة السيارة مثل سواقة الدراجة,disrespectful,3,confusion,5,direct,1,women,2,gender,2
+@user من اي صندوق نفياة جمعتم هذه الزباله ي خنازير القذيره من الحاوية الى في اسطنبول والامن الى في انقره وال… @url,offensive,2,indifference,6,indirect,0,other,1,other,0
+@user لعنه الله عليكم يانظام الحمارين. ياولاد شوارع ايران.  كلكم اولاد ديوث  خونه خنازير.,hateful,1,shock,1,direct,1,other,1,origin,1
+لو التعدد بيد الحريم ما بقي وحدة ما عددت #التعدد_مطلبنا,normal,5,sadness,3,direct,1,women,2,other,0
+@user @user خنزير وجهك,abusive,0,disgust,0,direct,1,individual,0,other,0
+كلية وسخة و شعب وسخ ف بلد اوسخ موجودين ع اوسخ كوكب ف المجرة والله,hateful,1,shock,1,direct,1,other,1,origin,1
+@user من الافضل البكاء على الحسين  او السعودي الذي يشرب بول البعير,abusive,0,indifference,6,indirect,0,other,1,origin,1
+@user @user صايره الحريم والرجال مثل الهلال والنصر مناحر اعوذ بالله,normal,5,shock,1,indirect,0,women,2,gender,2
+الروس قالوا انو سوريا أسقطت الطائرة يا بهيم @url,normal,5,indifference,6,direct,1,individual,0,other,0
+@user @user والله مافي غيرك غبي يا غبي اطلع على المصادر وبعدين انطق بس بول البعير مأثر فيك للغاية ياحيوان,disrespectful,3,indifference,6,direct,1,individual,0,other,0
+@user نعم الخنزير المصرى اقرب الينا من الحر عربي اجنبي .. مش فارقة ..المهم انه يكون خنزير كبير فالزريبة معانا !!,offensive,2,shock,1,indirect,0,other,1,origin,1
+@user لابد من استكمال الخطة من قبل خنازير الجزيرة ونفس الخطة تكرر وتعاد بنفس السيناريو ودخول اسرائيل في الموضوع… @url,offensive,2,shock,1,indirect,0,other,1,other,0
+@user @user @user بول البعير و اثاره !!!!!,abusive,0,indifference,6,indirect,0,other,1,other,0
+عندنا البعير عايش عيشة احسن منه بس يله قدرنا نصبر على اشكالكم الوا… @user,offensive,2,shock,1,direct,1,other,1,origin,1
+والله يكفينا شر الحريم,hateful,1,sadness,3,indirect,0,women,2,gender,2
+قوم علي حيلك ، وسخ,disrespectful,3,indifference,6,indirect,0,individual,0,other,0
+@user @user المجتمع المصري التائه عن اصوله يشجع البنات والسيدات علي التبرج وكشف بطونهن ولحمهن وصدورهن وار… @url,disrespectful,3,disgust,0,direct,1,women,2,gender,2
+@user يا خنازير إيران الفارسيه واسرائيل الملعونه انتم في انحسار والجيش الوطني والمقاومة والتحالف العربي كل… @url,offensive,2,shock,1,direct,1,other,1,other,0
+مسكينه لفت ولفت ولا حصلت شيء تنقد نامجون فيه ولأنه نجاحه ونجاح بانقتان مصيحها قالت اقول عن شكله خنزير,hateful,1,shock,1,indirect,0,individual,0,other,0
+تفاصيل زيارة وزراء الداخلية والصحة لمنطقة “حوباء” عقب اشتباكات دامية بسبب التحرش بفتاة @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user لما ابقى وسخ هفتخر ب كده اكيد حاجة تشرف,offensive,2,indifference,6,indirect,0,other,1,other,0
+تصيب البرؤساء الافارقة الضعفاء اسماعيل قيلي وئيس جيبوتي  وفرماجو رئي… @url,normal,5,indifference,6,indirect,0,african_descent,3,origin,1
+لو التعدد بيد الحريم ما بقي وحدة ما عددت #التعدد_مطلبنا,disrespectful,3,sadness,3,direct,1,women,2,other,0
+@user لا دا هندوس علي وشهم متقلقش,offensive,2,indifference,6,indirect,0,other,1,other,0
+ما تم الا النطيحه والمترديه والمرتزقه ، هذا مستواكم خنازير وكلاب تنبح فقط @url,hateful,1,shock,1,direct,1,other,1,origin,1
+@user @user نعم يا حبيب خالتك؟!! التحرش يحتاج سبب؟!! أغرب عن وجهي يا متحرش لئلا تسمع ما لا يرضيك.. عندما… @url,offensive,2,sadness,3,direct,1,individual,0,gender,2
+@user لا دا هندوس علي وشهم متقلقش,normal,5,anger,2,indirect,0,other,1,other,0
+خنازير عملاء حكام العرب في كل مكان ينتهكوا كرامه الشعوب @url,disrespectful,3,shock,1,indirect,0,other,1,origin,1
+@user والله إنكم خنازير مجرمين تتهمون الناس ظلما وعدوانا بالإرهاب إرضاء لإسرائيل و الغرب .. ولعبتكم مكشوفة و… @url,disrespectful,3,anger,2,direct,1,other,1,other,0
+غباء الرياييل أشرف من حقارة الحريم.,offensive,2,disgust,0,indirect,0,women,2,origin,1
+و أنا رجل عمري تعرضت لتحرش من بنت .. التحرش ليس مزحة @url,offensive,2,indifference,6,indirect,0,women,2,gender,2
+الله ياخذهم وياخذ من حرضهم وشجعهم على هالاعمال سوو مذهبنا مذهب هندوس وعبدة شياطين بأعمالهم,normal,5,shock,1,indirect,0,other,1,religion,3
+@user @user مشكلتلك ياراعي الغنم وشارب بول البعير تفتكر ان كلمة طعمية تضايق بالعكس تجوع يا أهطل,abusive,0,shock,1,indirect,0,individual,0,origin,1
+@user لولم تكن خنزير لعرفت أن إسم الجلالة يطلق على ملك الملوك الواحد القهار العضيم الجبار الله عزوجل....لاكن مع… @url,offensive,2,sadness,3,indirect,0,individual,0,other,0
+@user لعنة الله عليك ي كافر ي زنديق ولعنة الله على من خلفك ومن رباك وعلى دولة أحتضنت أمثالك ي خنزير,hateful,1,shock,1,indirect,0,individual,0,origin,1
+يظل التحرش في نظر الانثى تحرشاََ,normal,5,sadness,3,indirect,0,women,2,gender,2
+@user @user @user فعلاً من ديت لي ديت والله بايره انا دي ي مونياه,abusive,0,indifference,6,indirect,0,women,2,other,0
+@user مش مذكره من كثر ماني بايره,offensive,2,indifference,6,indirect,0,women,2,gender,2
+مش عارف ليه لما بتصفح تويتر بحس ان البنات عليه من كوكب زبالة مش زى اللى بيمشوا فى الشوارع خايفين من التحرش ...دول بيتحرشو بنفسهم هنا,normal,5,disgust,0,indirect,0,women,2,gender,2
+@user لا مش حكم كلاب ده حكم خنازير الكلب اوفى وانضف من الخنازير ولاد الخنازير,hateful,1,shock,1,indirect,0,other,1,other,0
+لمتييييين لمتيين يا ابشرا ؟ لمتين بايرة لي سنتين ي ابشرا  @user  @user  @user,disrespectful,3,indifference,6,indirect,0,other,1,other,0
+بعد ما رآحو الحريم,normal,5,disgust,0,indirect,0,women,2,other,0
+سوبر ايه ي عم..... كاس افريقيا اهم,normal,5,indifference,6,indirect,0,other,1,other,0
+@user @user تتصور انك فعلا انسان وسخ .. مصر تظل تاج راسكم ياكلاب,offensive,2,sadness,3,direct,1,individual,0,origin,1
+اي قانون التحرش لعب بهم,normal,5,indifference,6,indirect,0,other,1,gender,2
+@user @user والله بعذري بكم يا الحريم,disrespectful,3,indifference,6,indirect,0,women,2,gender,2
+@user ههههه تعيرني عجب بالشيب ليلى انت ياولد قاسم خنزير والبعير عندة غيرة واطلق واطهر من الخنزير الديوث مسلوب الغ… @url,hateful,1,shock,1,direct,1,individual,0,other,0
+@user هذا يصلح حق الحريم الي يقولون والله ساعتي بمليون,normal,5,indifference,6,indirect,0,women,2,other,0
+خنازير الخنزيره حول العالم سعداء ويهزون اذنابهم ومعاهم معظم عرب الشمال سودالله وجوهم الاكلين الناكرين اللوئماء وهم… @url,hateful,1,anger,2,indirect,0,other,1,origin,1
+ساقو الحريم وللحين ماسقت,offensive,2,disgust,0,indirect,0,women,2,other,0
+قانون لا يجرّم الاغتصاب ولا التحرش ومايعترف في الاناث ويدعم المتحرشين كيف بتتوقعون المجتمع يصير؟ المجرم يسوي الي يب… @url,normal,5,indifference,6,indirect,0,other,1,gender,2
+النايض ما عجبتش نزلت الدولار كيف عاد هكي بتقطعوا علية الاستمتاع  بمعاناة الليبيين واستمتاع خنازير الإمارات… @url,abusive,0,shock,1,direct,1,other,1,origin,1
+@user @user @user @user يا ذليل يا كلب عزمي يا ذنب الفرس يا خنزير قردقان الترك يا خائن ع… @url,hateful,1,anger,2,direct,1,individual,0,other,0
+العواذل بايره و الوقـــت بــا… @url,normal,5,sadness,3,indirect,0,women,2,gender,2
+يا جماعه مبحبش الكلام الكتير إللى يعرف يهيجنى ع امى ويقول كلام وسخ وشتيمه عليها يكلمني غير كدا لا@user انا زوبرى بيوقف  من كلامكم وشتيمتكم,abusive,0,disgust,0,direct,1,other,1,gender,2
+@user @user @user @user شوي شوي على شرب بول البعير تضرب الدماغ,disrespectful,3,indifference,6,direct,1,other,1,origin,1
+@user @user ادأ جيد من خنزير ناطق,abusive,0,anger,2,indirect,0,individual,0,origin,1
+@user لمين يا وسخ,offensive,2,indifference,6,indirect,0,individual,0,other,0
+@user لأنك شارب بول البعير تعتقد أن إقتصاد الريع ينهض بالأمم  والدليل ان أغلب  السعوديين عاطلين  ونسبة الفقر… @url,hateful,1,shock,1,direct,1,other,1,origin,1
+مارتا كريستيانو فرع الحريم,offensive,2,indifference,6,indirect,0,individual,0,other,0
+ويشتق منها كلمة بايرة للمرأة التي تأخرت بالزواج,normal,5,sadness,3,direct,1,women,2,gender,2
+@user @user @user @user يا شارب بول البعير روح خذ لك كاس بول بعير مصفى وأشربوا على شرف إللي ما عودو شرف بن خرفان,disrespectful,3,indifference,6,direct,1,individual,0,other,0
+تأثير شرب بول البعير على بني سلول. @url,hateful,1,disgust,0,indirect,0,other,1,origin,1
+عشان ربنا مدينا هندوس عليهم,normal,5,anger,2,indirect,0,other,1,other,0
+الحريم اللي بتقول مودريتش يستحق الجايزه يركنو ف داهيه مش ناقص بهايم,normal,5,indifference,6,direct,1,women,2,other,0
+@user وجه نظر.. اذا كان يمنع النقاب فنتمني عدم العرى من بعض البنات  حتي نقضي ع التحرش اهو يبقي ضربنا عصفورين @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user ياحيزان الحيران خذلك سندويش ضب مراهق واشرب بول البعير بطعم الفراوله وامضخ علكه خصاوي البعير واحمد الله ع نع… @url,offensive,2,disgust,0,indirect,0,individual,0,origin,1
+@user @user نعم بول البعير علاج وفِي السنه روى عن ذلك ويوجد حديث عنه,normal,5,indifference,6,direct,1,individual,0,other,0
+@user ياااخنزير حب الدوله وال سعود فطره في قلووب السعوديين يعني نشرت ولا قعدت ولاولعت نار تبقي خنزير مححد رايح يعطيك وجه,offensive,2,shock,1,direct,1,individual,0,other,0
+@user @user @user الفديو الاصلي  فيه مواضيع عديدة ويناقش قضية التحرش الجنسي من باب اخر تماما… @url,normal,5,confusion,5,indirect,0,women,2,gender,2
+@user ههههههههههه والله ان الحريم هذا الزمن ارجل من كمن شنب.,offensive,2,indifference,6,indirect,0,women,2,other,0
+@user @user @user @user المشكلة الحريم يصرخو والاطفال يبكو هنا الواحد يتربش، الله لايحط احد نفس الموقف,normal,5,indifference,6,indirect,0,other,1,other,0
+هذا وهي محتشمة كيف لو كانت متبرجة ؟,normal,5,disgust,0,direct,1,women,2,gender,2
+لاجيت بعاتبك طاح الحطب كله,normal,5,indifference,6,direct,1,individual,0,other,0
+@user @user حتى عندنا في جنوب المملكة في بلاد زهران نقول فلانة غير بايرة يعني غير  سلبية فهي ايجابية يعني سنعة,offensive,2,indifference,6,indirect,0,women,2,gender,2
+خنازير لا قيمة لهم محسوبين زورا على الانصار,normal,5,disgust,0,indirect,0,other,1,origin,1
+@user @user @user اه والله شايف ذبحنا بول البعير  مش مخلينا نفهم نظرت العالم المثقف المطلع النبيل الشريف,fearful,4,indifference,6,indirect,0,other,1,other,0
+عيار بول البعير مخلوط ببول الحمير  @url,offensive,2,indifference,6,indirect,0,other,1,other,0
+كله ياخد باله من الاوساخ الي داخله الهاش تكتب كلام وسخ ريبورتات ليهم,offensive,2,indifference,6,indirect,0,other,1,other,0
+لو شوال الرز بتاعك عنده دم يمشى ويروح يعمل أندية فبلده بدل تلقيح جتته علينا يا بايرة @url,offensive,2,indifference,6,direct,1,individual,0,other,0
+@user @user حرام عليكي يا دكتور معندكيش خنازير صغيرة,disrespectful,3,disgust,0,indirect,0,other,1,other,0
+دي شكلها قالت كدي النعمل موضوع مع مواضيع الايام دي ..عايز افهم وين التحرش....ملفات من 2016 @url,offensive,2,indifference,6,indirect,0,women,2,gender,2
+@user وأنت الصادق قناة الخنزيره,hateful,1,shock,1,direct,1,other,1,other,0
+@user @user الكردي كلب من يوم يومه بحاجة دائما لسيد وهلا اصبحتم خنازير اسرائيل بمرتبة الكلب,hateful,1,shock,1,direct,1,other,1,origin,1
+@user من عقب اعتزل من خنازير المانيا رجال اخذ حريته في الدين والعقيدة,normal,5,disgust,0,direct,1,other,1,other,0
+#feednoly جنه برد الموضوع عندك  اذلف  ماكل لحم خنزير مادري شوضعك,normal,5,indifference,6,direct,1,other,1,other,0
+ونبي يا جماعه محدش يشتم تركي ال شيخ عشان بيتقمص و الحريم بتوعه بيزعلو,normal,5,indifference,6,indirect,0,individual,0,other,0
+@user ويقهرون لما يقولون اللي يعجبونهم المنقبات والاطفال مريضين نفسيا ويبررون التحرش للباقيين ؟ وانتو ايش ان شاء… @url,normal,5,indifference,6,indirect,0,other,1,other,0
+@user هذا لو كان عندهم عقل يفكروا به . بول البعير  جعلهم كالبهاءم,hateful,1,shock,1,direct,1,other,1,origin,1
+لو فعلاً بيهرب كان هرب لدولة اوربيه مش عربيه يحكمها خنازير ايران هؤلاء اكذب من ابليس ومن صدقهم فه…,abusive,0,shock,1,direct,1,other,1,other,0
+@user لا احس دايما الحريم مفجوعين على الدراسه مو زيكم بس عقبالكم يارب امين,disrespectful,3,disgust,0,indirect,0,women,2,gender,2
+@user @user اردوغان يعلم انه من تلاميذ المدرسة الخمينية المجوسية   ولكن متى يستيقظ خنازير العرب الاخونج… @url,hateful,1,anger,2,indirect,0,individual,0,religion,3
+كذا تفتحي عيون الحريم علي رجالهم,disrespectful,3,indifference,6,direct,1,women,2,other,0
+تامر حسني اثبت انه احقر واوصخ فنان لانه حتى بعد الهجوم واتهامه بترويج التحرش في أغانيه (أغنية وكليب هي دي)  رجع بأغ… @url,offensive,2,sadness,3,direct,1,individual,0,other,0
+@user @user من يقتل الأطفال في اليمن الخونة والمرتزقة خنازير المجوس امثال نصر الشيطان الارهابي اللعنة عليه ح… @user,hateful,1,fear,4,indirect,0,other,1,origin,1
+ما انصح بزيارة اوربا بشكل عام بشهر فبراير بسبب الاجواء الشتوية القارصة..لاسيما وانت تتلكم عن شهر عسل,normal,5,indifference,6,indirect,0,other,1,other,0
+أعجبني فيديو @user على @user ملالي 27 | رضاع الكبير ، بول البعير ،,abusive,0,indifference,6,indirect,0,other,1,origin,1

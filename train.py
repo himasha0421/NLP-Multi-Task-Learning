@@ -2,7 +2,7 @@ import os
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
-from data import task_a, task_b, task_c, all_tasks, read_test_file, read_test_file_all
+from data import task_a, task_b, task_c, all_tasks, read_df
 from config import OLID_PATH
 from cli import get_args
 from utils import load
@@ -13,7 +13,9 @@ from models.mtl import MTL_Transformer_LSTM
 from transformers import BertTokenizer, RobertaTokenizer, get_cosine_schedule_with_warmup
 from trainer import Trainer
 
-TRAIN_PATH = os.path.join(OLID_PATH, 'olid-training-v1.0.tsv')
+TRAIN_PATH = "arab_dataset/arab_trainset.csv"
+TEST_PATH = "arab_dataset/arab_testset.csv" 
+VALID_PATH = "arab_dataset/arab_validset.csv"
 
 if __name__ == '__main__':
     # Get command line arguments
@@ -69,16 +71,17 @@ if __name__ == '__main__':
 
     # Read in data depends on different subtasks
     # label_orders = {'a': ['OFF', 'NOT'], 'b': ['TIN', 'UNT'], 'c': ['IND', 'GRP', 'OTH']}
-    if task in ['a', 'b', 'c']:
-        data_methods = {'a': task_a, 'b': task_b, 'c': task_c}
-        ids, token_ids, lens, mask, labels = data_methods[task](TRAIN_PATH, tokenizer=tokenizer, truncate=truncate)
-        test_ids, test_token_ids, test_lens, test_mask, test_labels = read_test_file(task, tokenizer=tokenizer, truncate=truncate)
-        _Dataset = HuggingfaceDataset
-    elif task in ['all']:
-        ids, token_ids, lens, mask, label_a, label_b, label_c = all_tasks(TRAIN_PATH, tokenizer=tokenizer, truncate=truncate)
-        test_ids, test_token_ids, test_lens, test_mask, test_label_a, test_label_b, test_label_c = read_test_file_all(tokenizer)
-        labels = {'a': label_a, 'b': label_b, 'c': label_c}
-        test_labels = {'a': test_label_a, 'b': test_label_b, 'c': test_label_c}
+
+    if task in ['all']:
+        # read the train , test and valid datasets
+        token_ids, lens , mask , label_a, label_b, label_c , label_d , label_e = all_tasks(TRAIN_PATH, tokenizer=tokenizer, truncate=truncate)
+        test_token_ids, test_lens, test_mask , test_label_a, test_label_b, test_label_c , test_label_d , test_label_e = all_tasks( TEST_PATH , tokenizer=tokenizer, truncate=truncate)
+        valid_token_ids, valid_lens, valid_mask , valid_label_a, valid_label_b, valid_label_c , valid_label_d , valid_label_e = all_tasks( VALID_PATH , tokenizer=tokenizer, truncate=truncate)
+        
+        labels = {'a': label_a, 'b': label_b, 'c': label_c , 'd': label_d ,'e': label_e }
+        test_labels = {'a': test_label_a, 'b': test_label_b, 'c': test_label_c , 'd': test_label_d , 'e': test_label_e }
+        valid_labels = {'a': valid_label_a, 'b': valid_label_b, 'c': valid_label_c , 'd': valid_label_d ,'e': valid_label_e }
+        
         _Dataset = HuggingfaceMTDataset
 
     datasets = {
@@ -95,23 +98,32 @@ if __name__ == '__main__':
             mask=test_mask,
             labels=test_labels,
             task=task
+        ),
+        'valid': _Dataset(
+            input_ids= valid_token_ids,
+            lens= valid_lens,
+            mask= valid_mask,
+            labels= valid_labels,
+            task=task
         )
     }
 
     sampler = ImbalancedDatasetSampler(datasets['train']) if task in ['a', 'b', 'c'] else None
+    
     dataloaders = {
         'train': DataLoader(
             dataset=datasets['train'],
             batch_size=bs,
             sampler=sampler
         ),
-        'test': DataLoader(dataset=datasets['test'], batch_size=bs)
+        'test': DataLoader(dataset=datasets['test'], batch_size=bs) ,
+        'valid': DataLoader(dataset=datasets['valid'], batch_size=bs) ,
     }
 
     criterion = torch.nn.CrossEntropyLoss()
 
     if args['scheduler']:
-        optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=wd)
+        optimizer = torch.optim.AdamW( model.parameters() , lr=lr, weight_decay=wd)
         # A warmup scheduler
         t_total = epochs * len(dataloaders['train'])
         warmup_steps = np.ceil(t_total / 10.0) * 2
@@ -121,7 +133,7 @@ if __name__ == '__main__':
             num_training_steps=t_total
         )
     else:
-        optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=wd)
+        optimizer = torch.optim.Adam( model.parameters() , lr=lr, weight_decay=wd)
         scheduler = None
 
     trainer = Trainer(

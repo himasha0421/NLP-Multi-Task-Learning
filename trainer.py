@@ -53,14 +53,20 @@ class Trainer():
         # Evaluation results
         self.train_losses = []
         self.test_losses = []
+        self.valid_losses = []
+        
         self.train_f1 = []
         self.test_f1 = []
+        self.valid_f1 = []
+        
         self.best_train_f1 = 0.0
         self.best_test_f1 = 0.0
-
+        self.best_valid_f1 = 0.0
+        
         # Evaluation results for multi-task
-        self.best_train_f1_m = np.array([0, 0, 0], dtype=np.float64)
-        self.best_test_f1_m = np.array([0, 0, 0], dtype=np.float64)
+        self.best_train_f1_m = np.array([0, 0, 0, 0, 0], dtype=np.float64)
+        self.best_test_f1_m = np.array([0, 0, 0 ,0 ,0], dtype=np.float64)
+        self.best_valid_f1_m = np.array([0, 0, 0 ,0 ,0], dtype=np.float64)
 
     def train(self):
         for epoch in range(self.epochs):
@@ -197,21 +203,29 @@ class Trainer():
         y_pred_all_A = None
         y_pred_all_B = None
         y_pred_all_C = None
+        y_pred_all_D = None
+        y_pred_all_E = None
+        
         labels_all_A = None
         labels_all_B = None
         labels_all_C = None
+        labels_all_D = None
+        labels_all_E = None
 
         loss = 0
         iters_per_epoch = 0
-        for inputs, lens, mask, label_A, label_B, label_C in tqdm(dataloader, desc='Training M'):
+        for inputs, lens, mask, label_A, label_B, label_C , label_D , label_E in tqdm(dataloader, desc='Training M'):
             iters_per_epoch += 1
 
             inputs = inputs.to(device=self.device)
             lens = lens.to(device=self.device)
             mask = mask.to(device=self.device)
+            
             label_A = label_A.to(device=self.device)
             label_B = label_B.to(device=self.device)
             label_C = label_C.to(device=self.device)
+            label_D = label_D.to(device=self.device)
+            label_E = label_E.to(device=self.device)
 
             self.optimizer.zero_grad()
 
@@ -219,25 +233,25 @@ class Trainer():
                 # Forward
                 # logits_A, logits_B, logits_C = self.model(inputs, mask)
                 all_logits = self.model(inputs, lens, mask)
+                
                 y_pred_A = all_logits[0].argmax(dim=1).cpu().numpy()
-                y_pred_B = all_logits[1][:, 0:2].argmax(dim=1)
-                y_pred_C = all_logits[2][:, 0:3].argmax(dim=1)
+                y_pred_B = all_logits[1].argmax(dim=1).cpu().numpy()
+                y_pred_C = all_logits[2].argmax(dim=1).cpu().numpy()
+                y_pred_D = all_logits[3].argmax(dim=1).cpu().numpy()
+                y_pred_E = all_logits[4].argmax(dim=1).cpu().numpy()
 
-                Non_null_index_B = label_B != LABEL_DICT['b']['NULL']
-                Non_null_label_B = label_B[Non_null_index_B]
-                Non_null_pred_B = y_pred_B[Non_null_index_B]
-
-                Non_null_index_C = label_C != LABEL_DICT['c']['NULL']
-                Non_null_label_C = label_C[Non_null_index_C]
-                Non_null_pred_C = y_pred_C[Non_null_index_C]
 
                 labels_all_A = label_A.cpu().numpy() if labels_all_A is None else np.concatenate((labels_all_A, label_A.cpu().numpy()))
-                labels_all_B = Non_null_label_B.cpu().numpy() if labels_all_B is None else np.concatenate((labels_all_B, Non_null_label_B.cpu().numpy()))
-                labels_all_C = Non_null_label_C.cpu().numpy() if labels_all_C is None else np.concatenate((labels_all_C, Non_null_label_C.cpu().numpy()))
+                labels_all_B = label_B.cpu().numpy() if labels_all_B is None else np.concatenate((labels_all_B, label_B.cpu().numpy()))
+                labels_all_C = label_C.cpu().numpy() if labels_all_C is None else np.concatenate((labels_all_C, label_C.cpu().numpy()))
+                labels_all_D = label_D.cpu().numpy() if labels_all_D is None else np.concatenate((labels_all_D, label_D.cpu().numpy()))
+                labels_all_E = label_E.cpu().numpy() if labels_all_E is None else np.concatenate((labels_all_E, label_E.cpu().numpy()))
 
                 y_pred_all_A = y_pred_A if y_pred_all_A is None else np.concatenate((y_pred_all_A, y_pred_A))
-                y_pred_all_B = Non_null_pred_B.cpu().numpy() if y_pred_all_B is None else np.concatenate((y_pred_all_B, Non_null_pred_B.cpu().numpy()))
-                y_pred_all_C = Non_null_pred_C.cpu().numpy() if y_pred_all_C is None else np.concatenate((y_pred_all_C, Non_null_pred_C.cpu().numpy()))
+                y_pred_all_B = y_pred_B if y_pred_all_B is None else np.concatenate((y_pred_all_B, y_pred_B))
+                y_pred_all_C = y_pred_C if y_pred_all_C is None else np.concatenate((y_pred_all_C, y_pred_C))
+                y_pred_all_D = y_pred_D if y_pred_all_D is None else np.concatenate((y_pred_all_D, y_pred_D))
+                y_pred_all_E = y_pred_E if y_pred_all_E is None else np.concatenate((y_pred_all_E, y_pred_E))
 
                 # f1[0] += self.calc_f1(label_A, y_pred_A)
                 # f1[1] += self.calc_f1(Non_null_label_B, Non_null_pred_B)
@@ -246,6 +260,9 @@ class Trainer():
                 _loss = self.loss_weights[0] * self.criterion(all_logits[0], label_A)
                 _loss += self.loss_weights[1] * self.criterion(all_logits[1], label_B)
                 _loss += self.loss_weights[2] * self.criterion(all_logits[2], label_C)
+                _loss += self.loss_weights[3] * self.criterion(all_logits[3], label_D)
+                _loss += self.loss_weights[4] * self.criterion(all_logits[4], label_E)
+                
                 loss += _loss.item()
 
                 # Backward
@@ -257,17 +274,22 @@ class Trainer():
                     self.scheduler.step()
 
         loss /= iters_per_epoch
+        # compute f1 scores
         f1_A = f1_score(labels_all_A, y_pred_all_A, average='macro')
         f1_B = f1_score(labels_all_B, y_pred_all_B, average='macro')
         f1_C = f1_score(labels_all_C, y_pred_all_C, average='macro')
+        f1_D = f1_score(labels_all_D, y_pred_all_D, average='macro')
+        f1_E = f1_score(labels_all_E, y_pred_all_E, average='macro')
 
         print(f'loss = {loss:.4f}')
-        print(f'A: {f1_A:.4f}')
-        print(f'B: {f1_B:.4f}')
-        print(f'C: {f1_C:.4f}')
+        print(f' sentiment_score: {f1_A:.4f}')
+        print(f' annotator_score: {f1_B:.4f}')
+        print(f' directness_score: {f1_C:.4f}')
+        print(f' group_score: {f1_D:.4f}')
+        print(f' target_score: {f1_E:.4f}')
 
         self.train_losses.append(loss)
-        self.train_f1.append([f1_A, f1_B, f1_C])
+        self.train_f1.append([f1_A, f1_B, f1_C , f1_D , f1_E ])
 
         if f1_A > self.best_train_f1_m[0]:
             self.best_train_f1_m[0] = f1_A
@@ -275,7 +297,11 @@ class Trainer():
             self.best_train_f1_m[1] = f1_B
         if f1_C > self.best_train_f1_m[2]:
             self.best_train_f1_m[2] = f1_C
-
+        if f1_D > self.best_train_f1_m[3]:
+            self.best_train_f1_m[3] = f1_D
+        if f1_E > self.best_train_f1_m[4]:
+            self.best_train_f1_m[4] = f1_E
+    # ------------------------------  need to modify the test , valid functions and the mtl model 
     def test_m(self):
         self.model.eval()
         dataloader = self.dataloaders['test']

@@ -18,7 +18,7 @@ class HuggingfaceDataset(Dataset):
         input = self.input_ids[idx]
         length = self.lens[idx]
         mask = self.mask[idx]
-        label = torch.tensor(this_LABEL_DICT[self.labels[idx]])
+        label = torch.tensor( self.labels[idx] )
         return input, length, mask, label
 
 class HuggingfaceMTDataset(Dataset):
@@ -32,13 +32,18 @@ class HuggingfaceMTDataset(Dataset):
         return self.labels['a'].shape[0]
 
     def __getitem__(self, idx):
+        
         input = self.input_ids[idx]
         mask = self.mask[idx]
         length = self.lens[idx]
-        label_A = torch.tensor(LABEL_DICT['a'][self.labels['a'][idx]])
-        label_B = torch.tensor(LABEL_DICT['b'][self.labels['b'][idx]])
-        label_C = torch.tensor(LABEL_DICT['c'][self.labels['c'][idx]])
-        return input, length, mask, label_A, label_B, label_C
+        
+        label_A = torch.tensor( self.labels['a'][idx] )
+        label_B = torch.tensor( self.labels['b'][idx] )
+        label_C = torch.tensor( self.labels['c'][idx] )
+        label_D = torch.tensor( self.labels['d'][idx] )
+        label_E = torch.tensor( self.labels['e'][idx] )
+        
+        return input, length, mask, label_A, label_B, label_C , label_D , label_E
 
 class ImbalancedDatasetSampler(torch.utils.data.sampler.Sampler):
     """
