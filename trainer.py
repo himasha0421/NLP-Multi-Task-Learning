@@ -343,8 +343,8 @@ class Trainer():
             label_A = label_A.to(device=self.device)
             label_B = label_B.to(device=self.device)
             label_C = label_C.to(device=self.device)
-            label_C = label_C.to(device=self.device)
-            label_C = label_C.to(device=self.device)
+            label_D = label_D.to(device=self.device)
+            label_E = label_E.to(device=self.device)
 
             with torch.set_grad_enabled(False):
                 # infer the model

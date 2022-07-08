@@ -154,14 +154,19 @@ if __name__ == '__main__':
     (labels_all_A, y_pred_all_A) , (labels_all_B, y_pred_all_B) , (labels_all_C, y_pred_all_C) , (labels_all_D, y_pred_all_D) ,(labels_all_E, y_pred_all_E) = trainer.test_m(stage='test')
     
     # define the classification report for every task
-    
+    print('\n')
+    print("Sentiment Performance Analysis")
     print(classification_report( labels_all_A , y_pred_all_A , target_names= list(LABEL_DICT['a'].keys()) , zero_division = 0 ) )
     print('\n')
+    print("Annotator Sentiment Performance Analysis")
     print(classification_report( labels_all_B , y_pred_all_B , target_names= list(LABEL_DICT['b'].keys()) , zero_division = 0 ) )
     print('\n')
+    print("Directness Performance Analysis")
     print(classification_report( labels_all_C , y_pred_all_C , target_names= list(LABEL_DICT['c'].keys()) , zero_division = 0 ) )
     print('\n')
+    print("Group Performance Analysis")
     print(classification_report( labels_all_D , y_pred_all_D , target_names= list(LABEL_DICT['d'].keys()) , zero_division = 0 ) )
     print('\n')
+    print("Target Performance Analysis")
     print(classification_report( labels_all_E , y_pred_all_E , target_names= list(LABEL_DICT['e'].keys()) , zero_division = 0 ) )
     
