@@ -23,11 +23,11 @@ def get_args():
     parser.add_argument('--ckpt', type=str, required=False, default='')
 
     # Transformers
-    parser.add_argument('-ad', '--attention-dropout', help='transformer attention dropout', type=float, required=False, default=0.1)
-    parser.add_argument('-hd', '--hidden-dropout', help='transformer hidden dropout', type=float, required=False, default=0.1)
+    parser.add_argument('-ad', '--attention-dropout', help='transformer attention dropout', type=float, required=False, default=0.3)
+    parser.add_argument('-hd', '--hidden-dropout', help='transformer hidden dropout', type=float, required=False, default=0.3)
 
     # LSTM
-    parser.add_argument('-dr', '--dropout', help='dropout', type=float, required=False, default=0.1)
+    parser.add_argument('-dr', '--dropout', help='dropout', type=float, required=False, default=0.3)
     parser.add_argument('-nl', '--num-layers', help='num of layers of LSTM', type=int, required=False, default=1)
     parser.add_argument('-hs', '--hidden-size', help='hidden vector size of LSTM', type=int, required=False, default=300)
     parser.add_argument('-hcm', '--hidden-combine-method', help='how to combbine hidden vectors in LSTM', type=str, required=False, default='concat')

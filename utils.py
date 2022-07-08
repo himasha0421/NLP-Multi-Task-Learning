@@ -7,8 +7,8 @@ def save(toBeSaved, filename, mode='wb'):
     dirname = os.path.dirname(filename)
     if not os.path.exists(dirname):
         os.makedirs(dirname)
-    file = open(filename, mode)
-    pickle.dump(toBeSaved, file)
+    file = open( filename, mode )
+    pickle.dump( toBeSaved, file )
     file.close()
 
 def load(filename, mode='rb'):

@@ -22,6 +22,26 @@ class BERT(nn.Module):
         logits = outputs[0]
         # return loss, logits
         return logits
+    
+class MARBERT(nn.Module):
+    def __init__(self, model_size, args, num_labels=2):
+        super( MARBERT, self).__init__()
+        self.model = BertForSequenceClassification.from_pretrained(
+            'UBC-NLP/MARBERT' ,
+            num_labels=num_labels,
+            hidden_dropout_prob=args['hidden_dropout'],
+            attention_probs_dropout_prob=args['attention_dropout']
+        )
+
+        # Freeze embeddings' parameters for saving memory
+        # for param in self.model.bert.embeddings.parameters():
+        #     param.requires_grad = False
+
+    def forward(self, inputs, lens, mask, labels=None):
+        outputs = self.model(inputs, attention_mask=mask)
+        logits = outputs[0]
+        # return loss, logits
+        return logits
 
 class RoBERTa(nn.Module):
     def __init__(self, model_size, args, num_labels=2):

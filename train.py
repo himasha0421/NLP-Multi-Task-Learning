@@ -2,16 +2,18 @@ import os
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
-from data import task_a, task_b, task_c, all_tasks, read_df
-from config import OLID_PATH
+from data import  all_tasks, read_df
+from config import OLID_PATH , LABEL_DICT
 from cli import get_args
 from utils import load
 from datasets import HuggingfaceDataset, HuggingfaceMTDataset, ImbalancedDatasetSampler
-from models.bert import BERT, RoBERTa
+from models.bert import BERT, RoBERTa , MARBERT
 from models.gated import GatedModel
 from models.mtl import MTL_Transformer_LSTM
 from transformers import BertTokenizer, RobertaTokenizer, get_cosine_schedule_with_warmup
 from trainer import Trainer
+from sklearn.metrics import confusion_matrix, classification_report
+from transformers import AutoTokenizer, AutoModel
 
 TRAIN_PATH = "arab_dataset/arab_trainset.csv"
 TEST_PATH = "arab_dataset/arab_testset.csv" 
@@ -42,26 +44,17 @@ if __name__ == '__main__':
     num_labels = 3 if task == 'c' else 2
 
     # Set tokenizer for different models
-    if model_name == 'bert':
+        
+    # define the marbert
+    if model_name == 'marbert':
         if task == 'all':
-            model = MTL_Transformer_LSTM(model_name, model_size, args=args)
+            # initialize the marbert MTL model
+            model = MTL_Transformer_LSTM( model_name , model_size , args=args)
         else:
-            model = BERT(model_size, args=args, num_labels=num_labels)
-        tokenizer = BertTokenizer.from_pretrained(f'bert-{model_size}-uncased')
-    elif model_name == 'roberta':
-        if task == 'all':
-            model = MTL_Transformer_LSTM(model_name, model_size, args=args)
-        else:
-            model = RoBERTa(model_size, args=args, num_labels=num_labels)
-        tokenizer = RobertaTokenizer.from_pretrained(f'roberta-{model_size}')
-    elif model_name == 'bert-gate' and task == 'all':
-        model_name = model_name.replace('-gate', '')
-        model = GatedModel(model_name, model_size, args=args)
-        tokenizer = BertTokenizer.from_pretrained(f'bert-{model_size}-uncased')
-    elif model_name == 'roberta-gate' and task == 'all':
-        model_name = model_name.replace('-gate', '')
-        model = GatedModel(model_name, model_size, args=args)
-        tokenizer = RobertaTokenizer.from_pretrained(f'roberta-{model_size}')
+            # should not run this , this is for normal bert classifier
+            model = MARBERT( model_size , args=args, num_labels=num_labels )
+            
+        tokenizer = AutoTokenizer.from_pretrained( 'UBC-NLP/MARBERT')
 
     # Move model to correct device
     model = model.to(device=device)
@@ -156,3 +149,19 @@ if __name__ == '__main__':
         trainer.train()
     else:
         trainer.train_m()
+        
+    # final model evaluation on test dataset
+    (labels_all_A, y_pred_all_A) , (labels_all_B, y_pred_all_B) , (labels_all_C, y_pred_all_C) , (labels_all_D, y_pred_all_D) ,(labels_all_E, y_pred_all_E) = trainer.test_m(stage='test')
+    
+    # define the classification report for every task
+    
+    print(classification_report( labels_all_A , y_pred_all_A , target_names= list(LABEL_DICT['a'].keys()) , zero_division = 0 ) )
+    print('\n')
+    print(classification_report( labels_all_B , y_pred_all_B , target_names= list(LABEL_DICT['b'].keys()) , zero_division = 0 ) )
+    print('\n')
+    print(classification_report( labels_all_C , y_pred_all_C , target_names= list(LABEL_DICT['c'].keys()) , zero_division = 0 ) )
+    print('\n')
+    print(classification_report( labels_all_D , y_pred_all_D , target_names= list(LABEL_DICT['d'].keys()) , zero_division = 0 ) )
+    print('\n')
+    print(classification_report( labels_all_E , y_pred_all_E , target_names= list(LABEL_DICT['e'].keys()) , zero_division = 0 ) )
+    
