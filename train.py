@@ -10,6 +10,8 @@ from datasets import HuggingfaceDataset, HuggingfaceMTDataset, ImbalancedDataset
 from models.bert import BERT, RoBERTa , MARBERT
 from models.gated import GatedModel
 from models.mtl import MTL_Transformer_LSTM
+from models.mtl_noheads import MTL_Transformer_No_Heads
+from models.mtl_cnn_lstm import MTL_Transformer_CNN_LSTM
 from transformers import BertTokenizer, RobertaTokenizer, get_cosine_schedule_with_warmup
 from trainer import Trainer
 from sklearn.metrics import confusion_matrix, classification_report
@@ -49,7 +51,18 @@ if __name__ == '__main__':
     if model_name == 'marbert':
         if task == 'all':
             # initialize the marbert MTL model
-            model = MTL_Transformer_LSTM( model_name , model_size , args=args)
+            if( args['modeltype'] == 'LSTM' ):
+                print("Initialize MarBert with LSTM heads  ..... \n")
+                model = MTL_Transformer_LSTM( model_name , model_size , args=args)
+                
+            elif( args['modeltype'] == 'NO_HEADS'  ):
+                print("Initialize MarBert with No Heads ....... \n")
+                model =  MTL_Transformer_No_Heads( model_name , model_size  , args= args )
+                
+            elif( args['modeltype'] == 'CNN_LSTM'  ):
+                print("Initialize MarBert with CNN LSTM heads ....... \n")
+                model =  MTL_Transformer_CNN_LSTM( model_name , model_size  , args= args )
+            
         else:
             # should not run this , this is for normal bert classifier
             model = MARBERT( model_size , args=args, num_labels=num_labels )

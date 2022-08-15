@@ -27,10 +27,13 @@ def get_args():
     parser.add_argument('-hd', '--hidden-dropout', help='transformer hidden dropout', type=float, required=False, default=0.3)
 
     # LSTM
-    parser.add_argument('-dr', '--dropout', help='dropout', type=float, required=False, default=0.3)
+    parser.add_argument('-dr', '--dropout', help='dropout', type=float, required=False, default=0.35)
     parser.add_argument('-nl', '--num-layers', help='num of layers of LSTM', type=int, required=False, default=1)
     parser.add_argument('-hs', '--hidden-size', help='hidden vector size of LSTM', type=int, required=False, default=300)
     parser.add_argument('-hcm', '--hidden-combine-method', help='how to combbine hidden vectors in LSTM', type=str, required=False, default='concat')
-
+    
+    # model type
+    parser.add_argument('-mt', '--modeltype', help='model design CNN+LSTM ,LSTM , No Heads', type=str, required=False, default='LSTM')
+    
     args = vars(parser.parse_args())
     return args
