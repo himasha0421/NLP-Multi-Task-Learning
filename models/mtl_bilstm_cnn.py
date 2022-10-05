@@ -134,7 +134,6 @@ class MTL_Transformer_BiLSTM_CNN(nn.Module):
         h_a = self.dropout(h_a)
 
         # apply convolution
-        print(h_a.shape)
         h_a  =  self.cnn1d_layers['a']( h_a ).squeeze(dim=1)
 
 
