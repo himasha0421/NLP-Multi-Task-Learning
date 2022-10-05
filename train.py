@@ -12,6 +12,7 @@ from models.gated import GatedModel
 from models.mtl import MTL_Transformer_LSTM
 from models.mtl_noheads import MTL_Transformer_No_Heads
 from models.mtl_cnn_lstm import MTL_Transformer_CNN_LSTM
+from models.mtl_bilstm_cnn import MTL_Transformer_BiLSTM_CNN
 from transformers import BertTokenizer, RobertaTokenizer, get_cosine_schedule_with_warmup
 from trainer import Trainer
 from sklearn.metrics import confusion_matrix, classification_report
@@ -62,6 +63,10 @@ if __name__ == '__main__':
             elif( args['modeltype'] == 'CNN_LSTM'  ):
                 print("Initialize MarBert with CNN LSTM heads ....... \n")
                 model =  MTL_Transformer_CNN_LSTM( model_name , model_size  , args= args )
+
+            elif( args['modeltype'] == 'BiLSTM_CNN'  ):
+                print("Initialize MarBert with BiLSTM and CNN heads ....... \n")
+                model =  MTL_Transformer_BiLSTM_CNN( model_name , model_size  , args= args )
             
         else:
             # should not run this , this is for normal bert classifier
